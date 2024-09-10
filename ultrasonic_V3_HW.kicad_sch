@@ -1,0 +1,207 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "731d4032-cf8d-4f76-95ca-2ec44c8e0816")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 50.8)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "1df80d8e-006c-4dfb-9745-823e097e735e")
+		(property "Sheetname" "fpga"
+			(at 127 50.0376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 127 71.7554 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 101.6)
+		(size 21.59 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "5c907b76-9bae-4316-8a5d-be43201fcef9")
+		(property "Sheetname" "BatteryManagement"
+			(at 67.31 100.8376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BatteryManagement.kicad_sch"
+			(at 67.31 127.6354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 34.29)
+		(size 12.7 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "ae9acf88-c042-4005-997d-04f4c43f38c7")
+		(property "Sheetname" "H-bridges"
+			(at 181.61 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "H-bridges.kicad_sch"
+			(at 181.61 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 181.61 67.31)
+		(size 15.24 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "bbbd27e3-755b-468e-8e26-bb40916e3b9a")
+		(property "Sheetname" "AnalogFrontend"
+			(at 181.61 66.5476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 181.61 93.3454 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 101.6)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.254)
+			(type solid)
+			(color 132 0 0 1)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "fa0f0e71-32a1-4f06-ba3c-8552f7539938")
+		(property "Sheetname" "PowerManagement"
+			(at 114.3 100.8376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerManagement.kicad_sch"
+			(at 114.3 127.6354 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
