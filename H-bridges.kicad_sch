@@ -1569,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 156.21) (xy 195.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "399b38b2-05a0-487e-81ad-ec30dda7f39e")
+	)
+	(wire
+		(pts
 			(xy 66.04 60.96) (xy 66.04 64.77)
 		)
 		(stroke
@@ -1659,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 207.01 92.71)
+			(xy 175.26 92.71) (xy 193.04 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 207.01 25.4)
+			(xy 175.26 25.4) (xy 193.04 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2289,6 +2299,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 25.4) (xy 207.01 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c994ad-1222-4d01-a87d-f12ec8b8276a")
+	)
+	(wire
+		(pts
 			(xy 80.01 85.09) (xy 114.3 85.09)
 		)
 		(stroke
@@ -2306,6 +2326,16 @@
 			(type default)
 		)
 		(uuid "ca7418dd-059f-4fed-acaf-f760b072f00a")
+	)
+	(wire
+		(pts
+			(xy 200.66 92.71) (xy 207.01 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9ee6bb-be26-4992-bf16-73d4b044aef0")
 	)
 	(wire
 		(pts
@@ -2399,6 +2429,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 161.29) (xy 195.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e478dd2d-1e1b-4723-8aa9-202b02c72666")
+	)
+	(wire
+		(pts
 			(xy 76.2 129.54) (xy 82.55 129.54)
 		)
 		(stroke
@@ -2467,6 +2507,39 @@
 			(justify right bottom)
 		)
 		(uuid "09ceb535-ab06-4589-aac5-c92cbf2cf091")
+	)
+	(label "PHV"
+		(at 175.26 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "10d2f760-69fd-4c24-a1c0-1eb2871955dd")
+	)
+	(label "P12V"
+		(at 30.48 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1837b93b-de9b-4c15-ab9c-e292c622b787")
+	)
+	(label "P12V"
+		(at 30.48 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c68c56f-9e5e-40b2-bfad-f8da0828bec8")
 	)
 	(label "LC_GATE"
 		(at 99.06 129.54 180)
@@ -2578,6 +2651,17 @@
 		)
 		(uuid "714063b8-932a-44e0-be55-0190f845ce14")
 	)
+	(label "P12V"
+		(at 30.48 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7e33b10e-2c8e-4595-a99b-ef643bf7658f")
+	)
 	(label "LC_GATE"
 		(at 232.41 129.54 0)
 		(fields_autoplaced yes)
@@ -2622,6 +2706,17 @@
 		)
 		(uuid "8a5ce6a6-88f3-4763-ab35-686ebb447aec")
 	)
+	(label "PHV"
+		(at 175.26 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93c934e6-f5b4-46c3-ac99-c468307f7a04")
+	)
 	(label "A_signal"
 		(at 195.58 44.45 0)
 		(fields_autoplaced yes)
@@ -2633,6 +2728,17 @@
 		)
 		(uuid "97457250-b47b-4945-a535-99a7900801af")
 	)
+	(label "P12V"
+		(at 30.48 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7de4941-7b33-45df-ad20-fa38f9bfe444")
+	)
 	(label "C_signal"
 		(at 139.7 127 180)
 		(fields_autoplaced yes)
@@ -2643,6 +2749,17 @@
 			(justify right bottom)
 		)
 		(uuid "b5e5e24c-44b8-423f-a58b-a7863b745e68")
+	)
+	(label "P12V"
+		(at 195.58 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7fb3037-a4d0-42bc-8ff7-ab1104fc4584")
 	)
 	(label "HA_GATE"
 		(at 107.95 39.37 180)
@@ -2676,6 +2793,17 @@
 			(justify right bottom)
 		)
 		(uuid "d6626925-8f24-4bc5-9540-fbb31e1c8dae")
+	)
+	(label "PHV"
+		(at 195.58 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e42b01c9-cb75-471b-8686-48ba3edc2bc7")
 	)
 	(label "A_signal"
 		(at 139.7 41.91 180)
@@ -2769,9 +2897,9 @@
 		)
 		(uuid "47271e41-dca2-4d4f-b42f-6b6db127fd73")
 	)
-	(hierarchical_label "P24V"
+	(hierarchical_label "P12V"
 		(shape input)
-		(at 175.26 92.71 180)
+		(at 182.88 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2779,7 +2907,19 @@
 			)
 			(justify right)
 		)
-		(uuid "6c9cf392-b966-453c-a964-404af6e8aa48")
+		(uuid "4b495e9c-7aa6-4c3e-8519-37e6cdf841be")
+	)
+	(hierarchical_label "PHV"
+		(shape input)
+		(at 182.88 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6910a4b8-c462-4af8-ac1c-028cdd59b4c3")
 	)
 	(hierarchical_label "BRIDGE_B_LO"
 		(shape input)
@@ -2805,18 +2945,6 @@
 		)
 		(uuid "89958b7a-e1da-49ca-8af1-c4cdaec1de14")
 	)
-	(hierarchical_label "P12V"
-		(shape input)
-		(at 30.48 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "89cc34c6-e91d-468a-86cc-8632be14801c")
-	)
 	(hierarchical_label "BRIDGE_D_signal"
 		(shape input)
 		(at 265.43 111.76 0)
@@ -2841,18 +2969,6 @@
 		)
 		(uuid "9c949ccd-885b-4393-be52-93621569da13")
 	)
-	(hierarchical_label "P12V"
-		(shape input)
-		(at 30.48 19.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9d8294fe-dedc-4609-bb56-92b709493253")
-	)
 	(hierarchical_label "BRIDGE_D_LO"
 		(shape input)
 		(at 46.99 157.48 180)
@@ -2864,18 +2980,6 @@
 			(justify right)
 		)
 		(uuid "c05eedd5-915d-4458-87fb-67dff871e32c")
-	)
-	(hierarchical_label "P12V"
-		(shape input)
-		(at 30.48 146.05 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1d5f475-cf04-40e5-a6ed-d784dc2ae656")
 	)
 	(hierarchical_label "BRIDGE_B_HI"
 		(shape input)
@@ -2889,29 +2993,90 @@
 		)
 		(uuid "e8d5bac1-bcea-49fc-a0c1-7f7d320dcb2e")
 	)
-	(hierarchical_label "P24V"
-		(shape input)
-		(at 175.26 25.4 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+	(symbol
+		(lib_id "Device:D")
+		(at 114.3 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "080d5de8-f12a-49e5-96b8-4575ebe129f1")
+		(property "Reference" "D2"
+			(at 111.252 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right)
 		)
-		(uuid "e954b3d5-1e99-4bb6-bf7b-a7b419239976")
-	)
-	(hierarchical_label "P12V"
-		(shape input)
-		(at 30.48 60.96 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(property "Value" "1N4148W"
+			(at 108.712 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right)
 		)
-		(uuid "eb8b5c88-a35b-4811-a139-0470cabc4386")
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&srsltid=AfmBOorMVh9aQCQJXlRmu5q-x4k63j0_Z9czWefQ9uFlGwFx4R5vInln"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47b55e3c-b029-4b8f-ac88-e73633bb0c86")
+		)
+		(pin "2"
+			(uuid "269efae6-5000-498e-b6bd-4f5ee579da6d")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -3431,6 +3596,176 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 114.3 176.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21d1f660-b1dd-447f-a262-9d8a6e9f4f33")
+		(property "Reference" "D6"
+			(at 111.252 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 108.712 176.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&srsltid=AfmBOorMVh9aQCQJXlRmu5q-x4k63j0_Z9czWefQ9uFlGwFx4R5vInln"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 114.3 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30386d35-28d6-43b0-8796-96fef967694c")
+		)
+		(pin "2"
+			(uuid "50378153-068e-4e4a-b061-436581099d1f")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 113.03 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34d90cdb-5806-4a57-b644-f11ce901056b")
+		(property "Reference" "D5"
+			(at 109.982 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 107.442 133.096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&srsltid=AfmBOorMVh9aQCQJXlRmu5q-x4k63j0_Z9czWefQ9uFlGwFx4R5vInln"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fb6d156-5a6a-423f-9cb3-b4839bfa0ba8")
+		)
+		(pin "2"
+			(uuid "8ff7b60b-71ac-4b4c-81fb-a8e3d9bb8a72")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4113,94 +4448,6 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 114.3 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63deed16-efbe-4b7c-bece-ba611e44a25e")
-		(property "Reference" "D6"
-			(at 116.84 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 116.84 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4ee507d-84d4-4e77-bc99-d00474c5fdb5")
-		)
-		(pin "2"
-			(uuid "a8489686-4b03-4dba-92bc-64ae781a2836")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4909,6 +5156,74 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cee9598-52e8-40f8-8f74-96f43aa6a05a")
+		(property "Reference" "R1"
+			(at 196.85 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 196.85 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 196.85 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "26d9bf71-2f07-4da6-b02d-34016af6e1a1")
+		)
+		(pin "1"
+			(uuid "c8e2a0c7-dd06-44e5-a172-1477ab7b6072")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5689,6 +6004,91 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 113.03 48.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdfc0ac2-1e7d-408e-99bf-11b9ade4a9ec")
+		(property "Reference" "D1"
+			(at 109.982 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 107.442 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&srsltid=AfmBOorMVh9aQCQJXlRmu5q-x4k63j0_Z9czWefQ9uFlGwFx4R5vInln"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 113.03 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f120e61-5e56-4bc4-981d-2ef72febddd1")
+		)
+		(pin "2"
+			(uuid "9ebc2042-a7c3-4cbe-914b-17a00386d597")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 85.09 87.63 90)
 		(unit 1)
@@ -5822,94 +6222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 113.03 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eef63440-68f1-4a97-bf51-bdfcc794a31e")
-		(property "Reference" "D8"
-			(at 115.57 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 115.57 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "728191b7-331e-4f31-ad7c-acffca34d730")
-		)
-		(pin "2"
-			(uuid "af3d1560-3349-430f-9f1c-11629a1f0cb0")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 66.04 180.34 0)
 		(unit 1)
@@ -5970,182 +6282,6 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 114.3 176.53 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faae709f-9a87-4cc3-ae84-7f75632f7914")
-		(property "Reference" "D9"
-			(at 116.84 175.2599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 116.84 177.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 114.3 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 114.3 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 114.3 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ceefbb4-aa9b-4697-af82-64e32eae7a6d")
-		)
-		(pin "2"
-			(uuid "9c0f8dff-1ffa-456c-b1f0-c149089068e0")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 113.03 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc73f11e-403d-4a90-8cbd-cac1d2eacd65")
-		(property "Reference" "D7"
-			(at 115.57 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "D"
-			(at 115.57 49.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 113.03 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "38e4826f-fbb2-4908-a37d-d2023adb0c99")
-		)
-		(pin "2"
-			(uuid "3afabd12-10b5-4016-a24a-1a82701aa92a")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -6302,6 +6438,74 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fec2880f-0fc9-455e-aa7c-15a52a39c391")
+		(property "Reference" "R2"
+			(at 196.85 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 196.85 21.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 196.85 27.178 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8a7c8e56-1882-48b6-a3ab-b885b30167ca")
+		)
+		(pin "1"
+			(uuid "d095e56f-93b3-4235-bbb4-c61a7ebb1ebd")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "R2")
 					(unit 1)
 				)
 			)

@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -245,7 +245,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12,
+        "bus_width": 15,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -259,7 +259,7 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 10
       }
     ],
     "meta": {
@@ -370,6 +370,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -385,10 +393,6 @@
     [
       "731d4032-cf8d-4f76-95ca-2ec44c8e0816",
       "Root"
-    ],
-    [
-      "5c907b76-9bae-4316-8a5d-be43201fcef9",
-      "BatteryManagement"
     ],
     [
       "fa0f0e71-32a1-4f06-ba3c-8552f7539938",
@@ -409,6 +413,10 @@
     [
       "524359eb-9d0a-4fc3-9ef0-d64f697c9b7a",
       "ProgrammableGain0"
+    ],
+    [
+      "20962ebf-4383-4e37-a926-d36c5a815eed",
+      "step-up"
     ],
     [
       "2dbd552e-08c7-4d50-a4de-7563b1441755",
