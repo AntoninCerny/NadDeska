@@ -1230,37 +1230,37 @@
 		)
 	)
 	(junction
-		(at 207.01 46.99)
+		(at 194.31 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "03048e33-c6e3-4559-9a5d-4f1501178396")
 	)
 	(junction
-		(at 207.01 92.71)
+		(at 194.31 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09ca2e2f-6635-46b6-90ed-49271160be11")
 	)
 	(junction
-		(at 254 44.45)
+		(at 241.3 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0b91c58f-11f1-4006-a78c-577e18d7ad14")
 	)
 	(junction
-		(at 254 111.76)
+		(at 241.3 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10e334d7-1e16-443d-ab52-354b8f16f606")
 	)
 	(junction
-		(at 207.01 114.3)
+		(at 194.31 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c8fc65-744c-4910-bebf-06116e3e5c5b")
 	)
 	(junction
-		(at 207.01 25.4)
+		(at 194.31 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b9d77d0-f572-4524-9e38-20300c24c21f")
@@ -1272,13 +1272,13 @@
 		(uuid "54c624c0-3a9c-4359-a925-25e2504d1db7")
 	)
 	(junction
-		(at 254 114.3)
+		(at 241.3 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58021508-d8e2-4f07-8f7b-63707376a394")
 	)
 	(junction
-		(at 207.01 111.76)
+		(at 194.31 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a1c8bf9-d68c-4bf9-92d9-3b32a09e8e2b")
@@ -1296,13 +1296,13 @@
 		(uuid "61c6a575-d2d9-4b2c-8a7f-7a3a9974abab")
 	)
 	(junction
-		(at 207.01 44.45)
+		(at 194.31 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "783b9a7f-ed3c-4c9d-84e0-499f5f8930bd")
 	)
 	(junction
-		(at 254 46.99)
+		(at 241.3 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c5b1aa6-6028-439c-8a67-fa70d010d356")
@@ -1399,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 92.71) (xy 207.01 99.06)
+			(xy 194.31 90.17) (xy 194.31 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 46.99) (xy 207.01 60.96)
+			(xy 194.31 44.45) (xy 194.31 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 111.76) (xy 254 114.3)
+			(xy 241.3 109.22) (xy 241.3 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 25.4) (xy 207.01 25.4)
+			(xy 241.3 22.86) (xy 194.31 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 139.7 85.09)
+			(xy 129.54 85.09) (xy 148.59 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 127) (xy 128.27 127)
+			(xy 147.32 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 170.18) (xy 137.16 170.18)
+			(xy 129.54 170.18) (xy 147.32 170.18)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 71.12) (xy 207.01 77.47)
+			(xy 194.31 68.58) (xy 194.31 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1519,17 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 111.76) (xy 254 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d693e4a-d426-41dd-aae5-e56785ef8e01")
-	)
-	(wire
-		(pts
-			(xy 254 31.75) (xy 254 25.4)
+			(xy 241.3 29.21) (xy 241.3 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 119.38) (xy 212.09 120.65)
+			(xy 199.39 116.84) (xy 199.39 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 104.14) (xy 246.38 104.14)
+			(xy 219.71 101.6) (xy 233.68 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 66.04) (xy 246.38 66.04)
+			(xy 219.71 63.5) (xy 233.68 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 92.71) (xy 193.04 92.71)
+			(xy 162.56 90.17) (xy 180.34 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1689,6 +1679,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 41.91) (xy 261.62 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509431d6-9041-40fd-be8b-d75e3e2fc6e1")
+	)
+	(wire
+		(pts
 			(xy 80.01 127) (xy 113.03 127)
 		)
 		(stroke
@@ -1709,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 41.91) (xy 128.27 41.91)
+			(xy 146.05 41.91) (xy 128.27 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 71.12) (xy 254 77.47)
+			(xy 241.3 68.58) (xy 241.3 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 92.71) (xy 207.01 92.71)
+			(xy 241.3 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 41.91) (xy 207.01 44.45)
+			(xy 194.31 39.37) (xy 194.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 52.07) (xy 248.92 53.34)
+			(xy 236.22 49.53) (xy 236.22 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 44.45) (xy 207.01 46.99)
+			(xy 194.31 41.91) (xy 194.31 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 104.14) (xy 199.39 104.14)
+			(xy 175.26 101.6) (xy 186.69 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 111.76) (xy 207.01 111.76)
+			(xy 172.72 109.22) (xy 194.31 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 25.4) (xy 193.04 25.4)
+			(xy 162.56 22.86) (xy 180.34 22.86)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 139.7) (xy 254 146.05)
+			(xy 241.3 137.16) (xy 241.3 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 109.22) (xy 254 111.76)
+			(xy 241.3 106.68) (xy 241.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 66.04) (xy 199.39 66.04)
+			(xy 176.53 63.5) (xy 186.69 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 36.83) (xy 199.39 36.83)
+			(xy 175.26 34.29) (xy 186.69 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 111.76) (xy 207.01 114.3)
+			(xy 194.31 109.22) (xy 194.31 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 114.3) (xy 254 129.54)
+			(xy 241.3 111.76) (xy 241.3 127)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2089,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 109.22) (xy 207.01 111.76)
+			(xy 194.31 106.68) (xy 194.31 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2099,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 44.45) (xy 254 46.99)
+			(xy 241.3 41.91) (xy 241.3 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2129,7 +2129,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 44.45) (xy 207.01 44.45)
+			(xy 175.26 41.91) (xy 194.31 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2159,13 +2159,23 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 139.7) (xy 207.01 146.05)
+			(xy 194.31 137.16) (xy 194.31 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b0325eca-0018-40bf-9cfd-56628c5df3c2")
+	)
+	(wire
+		(pts
+			(xy 241.3 109.22) (xy 260.35 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0e7d254-d488-4903-98a1-2538879a9304")
 	)
 	(wire
 		(pts
@@ -2209,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 25.4) (xy 207.01 31.75)
+			(xy 194.31 22.86) (xy 194.31 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2249,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 52.07) (xy 212.09 53.34)
+			(xy 199.39 49.53) (xy 199.39 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2279,7 +2289,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 25.4) (xy 207.01 25.4)
+			(xy 187.96 22.86) (xy 194.31 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2309,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 134.62) (xy 246.38 134.62)
+			(xy 219.71 132.08) (xy 233.68 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2309,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 92.71) (xy 207.01 92.71)
+			(xy 187.96 90.17) (xy 194.31 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2339,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 36.83) (xy 246.38 36.83)
+			(xy 219.71 34.29) (xy 233.68 34.29)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2349,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 114.3) (xy 207.01 129.54)
+			(xy 194.31 111.76) (xy 194.31 127)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2409,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 41.91) (xy 254 44.45)
+			(xy 241.3 39.37) (xy 241.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2409,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 99.06) (xy 254 92.71)
+			(xy 241.3 96.52) (xy 241.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2439,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 46.99) (xy 254 60.96)
+			(xy 241.3 44.45) (xy 241.3 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2449,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 134.62) (xy 199.39 134.62)
+			(xy 176.53 132.08) (xy 186.69 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2459,23 +2469,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 119.38) (xy 248.92 120.65)
+			(xy 236.22 116.84) (xy 236.22 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f07ad217-1434-4ba0-8641-f7ea5c3d51cc")
-	)
-	(wire
-		(pts
-			(xy 265.43 44.45) (xy 254 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4ef8cf0-85d1-4714-a7e3-9c4c8405518d")
 	)
 	(wire
 		(pts
@@ -2508,8 +2508,8 @@
 		)
 		(uuid "066ab724-36d8-47f6-a5f3-d8c83f9faed9")
 	)
-	(label "B_signal"
-		(at 139.7 85.09 180)
+	(label "BRIDGE_B_SIGNAL"
+		(at 148.59 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2520,7 +2520,7 @@
 		(uuid "09ceb535-ab06-4589-aac5-c92cbf2cf091")
 	)
 	(label "PHV"
-		(at 175.26 92.71 0)
+		(at 162.56 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2575,7 +2575,7 @@
 		(uuid "2f7704db-4971-44a3-985b-fe5c067e4082")
 	)
 	(label "LA_GATE"
-		(at 189.23 66.04 0)
+		(at 176.53 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2585,8 +2585,8 @@
 		)
 		(uuid "3135ff35-82fa-41ca-9b46-afbd343153c9")
 	)
-	(label "C_signal"
-		(at 195.58 111.76 0)
+	(label "BRIDGE_C_SIGNAL"
+		(at 173.99 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2597,7 +2597,7 @@
 		(uuid "450190e7-2fcb-473f-b862-26ab4c0616bb")
 	)
 	(label "HD_GATE"
-		(at 232.41 104.14 0)
+		(at 219.71 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2619,7 +2619,7 @@
 		(uuid "5a6cd218-5faa-4c42-8e76-8b111722769a")
 	)
 	(label "HB_GATE"
-		(at 232.41 36.83 0)
+		(at 219.71 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2641,7 +2641,7 @@
 		(uuid "5c4e185b-e8b0-4004-9791-5e51e27a1889")
 	)
 	(label "HC_GATE"
-		(at 187.96 104.14 0)
+		(at 175.26 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2651,8 +2651,8 @@
 		)
 		(uuid "6aaf0b5d-b63c-41d2-b76e-a8ad3666d439")
 	)
-	(label "B_signal"
-		(at 265.43 44.45 180)
+	(label "BRIDGE_B_SIGNAL"
+		(at 259.08 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2674,7 +2674,7 @@
 		(uuid "7e33b10e-2c8e-4595-a99b-ef643bf7658f")
 	)
 	(label "LD_GATE"
-		(at 232.41 134.62 0)
+		(at 219.71 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2685,7 +2685,7 @@
 		(uuid "81af09c2-f161-4709-8f6a-7a72335c83f5")
 	)
 	(label "LB_GATE"
-		(at 232.41 66.04 0)
+		(at 219.71 63.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2696,7 +2696,7 @@
 		(uuid "8778fe4a-39fb-447d-86d6-9808650e16c2")
 	)
 	(label "LC_GATE"
-		(at 189.23 134.62 0)
+		(at 176.53 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2707,7 +2707,7 @@
 		(uuid "89c900e0-f99b-4c08-89fa-26bf1077270d")
 	)
 	(label "HA_GATE"
-		(at 187.96 36.83 0)
+		(at 175.26 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2718,7 +2718,7 @@
 		(uuid "8a5ce6a6-88f3-4763-ab35-686ebb447aec")
 	)
 	(label "PHV"
-		(at 175.26 25.4 0)
+		(at 162.56 22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2728,8 +2728,8 @@
 		)
 		(uuid "93c934e6-f5b4-46c3-ac99-c468307f7a04")
 	)
-	(label "A_signal"
-		(at 195.58 44.45 0)
+	(label "BRIDGE_A_SIGNAL"
+		(at 175.26 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2750,8 +2750,8 @@
 		)
 		(uuid "a7de4941-7b33-45df-ad20-fa38f9bfe444")
 	)
-	(label "C_signal"
-		(at 139.7 127 180)
+	(label "BRIDGE_C_SIGNAL"
+		(at 147.32 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2783,8 +2783,8 @@
 		)
 		(uuid "ccbc24ba-29d1-48eb-b028-a95938ff2fd5")
 	)
-	(label "D_signal"
-		(at 265.43 111.76 180)
+	(label "BRIDGE_D_SIGNAL"
+		(at 259.08 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2816,8 +2816,8 @@
 		)
 		(uuid "e42b01c9-cb75-471b-8686-48ba3edc2bc7")
 	)
-	(label "A_signal"
-		(at 139.7 41.91 180)
+	(label "BRIDGE_A_SIGNAL"
+		(at 146.05 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2827,8 +2827,8 @@
 		)
 		(uuid "e449aeec-b50b-45ca-9d73-3e3610ce0e30")
 	)
-	(label "D_signal"
-		(at 137.16 170.18 180)
+	(label "BRIDGE_D_SIGNAL"
+		(at 147.32 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2872,9 +2872,9 @@
 		)
 		(uuid "099b9d72-55a6-4f2a-a325-63a7bca555fd")
 	)
-	(hierarchical_label "BRIDGE_B_signal"
+	(hierarchical_label "BRIDGE_B_SIGNAL"
 		(shape input)
-		(at 265.43 44.45 0)
+		(at 261.62 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2932,6 +2932,18 @@
 		)
 		(uuid "6910a4b8-c462-4af8-ac1c-028cdd59b4c3")
 	)
+	(hierarchical_label "BRIDGE_C_SIGNAL"
+		(shape input)
+		(at 172.72 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74045ca6-8ebf-4f7f-a9be-0ae9187a0cc2")
+	)
 	(hierarchical_label "BRIDGE_B_LO"
 		(shape input)
 		(at 46.99 72.39 180)
@@ -2943,6 +2955,18 @@
 			(justify right)
 		)
 		(uuid "7522228b-4d93-42ef-abcf-8ba6404a72fc")
+	)
+	(hierarchical_label "BRIDGE_A_SIGNAL"
+		(shape input)
+		(at 175.26 41.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "86623363-c92e-4151-9cbc-918614f11457")
 	)
 	(hierarchical_label "BRIDGE_C_LO"
 		(shape input)
@@ -2956,9 +2980,9 @@
 		)
 		(uuid "89958b7a-e1da-49ca-8af1-c4cdaec1de14")
 	)
-	(hierarchical_label "BRIDGE_D_signal"
+	(hierarchical_label "BRIDGE_D_SIGNAL"
 		(shape input)
-		(at 265.43 111.76 0)
+		(at 260.35 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3006,7 +3030,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 212.09 114.3 0)
+		(at 199.39 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3015,7 +3039,7 @@
 		(fields_autoplaced yes)
 		(uuid "033aed05-f74b-44ab-833f-e2ba25cd2b38")
 		(property "Reference" "J3"
-			(at 215.9 113.3231 0)
+			(at 203.2 110.7831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +3048,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 215.9 115.8631 0)
+			(at 203.2 113.3231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3057,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 212.09 114.3 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3066,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 212.09 114.3 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3075,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 212.09 114.3 0)
+			(at 199.39 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3161,7 +3185,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 204.47 66.04 0)
+		(at 191.77 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3170,7 +3194,7 @@
 		(fields_autoplaced yes)
 		(uuid "0bdcf263-f0ac-4f7f-b68e-f0aa1b9dc06c")
 		(property "Reference" "Q8"
-			(at 210.82 64.7699 0)
+			(at 198.12 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3203,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 210.82 67.3099 0)
+			(at 198.12 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3212,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 209.55 63.5 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3221,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 204.47 78.74 0)
+			(at 191.77 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3230,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 204.47 66.04 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3239,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 204.47 83.185 0)
+			(at 191.77 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3248,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 204.47 85.09 0)
+			(at 191.77 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,7 +3257,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 204.47 81.28 0)
+			(at 191.77 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3261,7 +3285,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 204.47 134.62 0)
+		(at 191.77 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3270,7 +3294,7 @@
 		(fields_autoplaced yes)
 		(uuid "138599f9-cc36-4d03-950b-be0dbb5b3a69")
 		(property "Reference" "Q12"
-			(at 210.82 133.3499 0)
+			(at 198.12 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3279,7 +3303,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 210.82 135.8899 0)
+			(at 198.12 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +3312,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 209.55 132.08 0)
+			(at 196.85 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +3321,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 204.47 147.32 0)
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3330,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 204.47 134.62 0)
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3339,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 204.47 151.765 0)
+			(at 191.77 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3348,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 204.47 153.67 0)
+			(at 191.77 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3357,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 204.47 149.86 0)
+			(at 191.77 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3449,7 +3473,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 251.46 36.83 0)
+		(at 238.76 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3458,7 +3482,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d3322dd-ee2b-426d-bf6b-83127a210a85")
 		(property "Reference" "Q9"
-			(at 257.81 35.5599 0)
+			(at 245.11 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3467,7 +3491,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 257.81 38.0999 0)
+			(at 245.11 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3476,7 +3500,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 256.54 34.29 0)
+			(at 243.84 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3485,7 +3509,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 251.46 49.53 0)
+			(at 238.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3494,7 +3518,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 251.46 36.83 0)
+			(at 238.76 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,7 +3527,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 251.46 53.975 0)
+			(at 238.76 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3512,7 +3536,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 251.46 55.88 0)
+			(at 238.76 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3521,7 +3545,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 251.46 52.07 0)
+			(at 238.76 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +4033,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 212.09 46.99 0)
+		(at 199.39 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4018,7 +4042,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c5616c7-cae5-4b46-8af4-13c2e64bb741")
 		(property "Reference" "J2"
-			(at 215.9 46.0131 0)
+			(at 203.2 43.4731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +4051,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 215.9 48.5531 0)
+			(at 203.2 46.0131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4060,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 212.09 46.99 0)
+			(at 199.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4069,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 212.09 46.99 0)
+			(at 199.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4078,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 212.09 46.99 0)
+			(at 199.39 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4079,7 +4103,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 120.65 0)
+		(at 236.22 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4089,7 +4113,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ccabbc-f742-4c94-b29e-8bc029d92b50")
 		(property "Reference" "#PWR0118"
-			(at 248.92 127 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4122,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 125.73 0)
+			(at 236.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +4130,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 120.65 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +4139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 120.65 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +4148,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 120.65 0)
+			(at 236.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4170,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 53.34 0)
+		(at 236.22 50.8 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4156,7 +4180,7 @@
 		(fields_autoplaced yes)
 		(uuid "59438077-f8b1-4460-9f5d-126566f8c3e9")
 		(property "Reference" "#PWR0116"
-			(at 248.92 59.69 0)
+			(at 236.22 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 58.42 0)
+			(at 236.22 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4173,7 +4197,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 53.34 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4182,7 +4206,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 53.34 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4191,7 +4215,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 53.34 0)
+			(at 236.22 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +4393,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 251.46 104.14 0)
+		(at 238.76 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4378,7 +4402,7 @@
 		(fields_autoplaced yes)
 		(uuid "60c2bfb9-af54-4c25-85e4-326fb29402e1")
 		(property "Reference" "Q13"
-			(at 257.81 102.8699 0)
+			(at 245.11 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4411,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 257.81 105.4099 0)
+			(at 245.11 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4420,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 256.54 101.6 0)
+			(at 243.84 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4429,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 251.46 116.84 0)
+			(at 238.76 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,7 +4438,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 251.46 104.14 0)
+			(at 238.76 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4447,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 251.46 121.285 0)
+			(at 238.76 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4432,7 +4456,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 251.46 123.19 0)
+			(at 238.76 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4441,7 +4465,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 251.46 119.38 0)
+			(at 238.76 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4561,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 204.47 36.83 0)
+		(at 191.77 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4546,7 +4570,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c2cf1f9-021c-47e2-a325-016b8b4a525f")
 		(property "Reference" "Q7"
-			(at 210.82 35.5599 0)
+			(at 198.12 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4579,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 210.82 38.0999 0)
+			(at 198.12 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4564,7 +4588,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 209.55 34.29 0)
+			(at 196.85 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4573,7 +4597,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 204.47 49.53 0)
+			(at 191.77 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4582,7 +4606,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 204.47 36.83 0)
+			(at 191.77 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4615,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 204.47 53.975 0)
+			(at 191.77 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,7 +4624,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 204.47 55.88 0)
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4609,7 +4633,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 204.47 52.07 0)
+			(at 191.77 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4773,7 +4797,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 146.05 0)
+		(at 194.31 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4782,7 +4806,7 @@
 		(fields_autoplaced yes)
 		(uuid "78e1965c-faf7-477e-81f9-d7c1f31d6c9a")
 		(property "Reference" "#PWR031"
-			(at 207.01 152.4 0)
+			(at 194.31 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4791,7 +4815,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 151.13 0)
+			(at 194.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 146.05 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +4832,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 146.05 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +4841,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 146.05 0)
+			(at 194.31 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4863,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 146.05 0)
+		(at 241.3 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4848,7 +4872,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bc1c2db-854c-45ae-abf6-300993c546b5")
 		(property "Reference" "#PWR032"
-			(at 254 152.4 0)
+			(at 241.3 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4857,7 +4881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 151.13 0)
+			(at 241.3 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4865,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 146.05 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4874,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 146.05 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 146.05 0)
+			(at 241.3 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +4929,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 120.65 0)
+		(at 199.39 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4914,7 +4938,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f0dd7e9-8152-48d1-8726-a1c78ce948ad")
 		(property "Reference" "#PWR0117"
-			(at 212.09 127 0)
+			(at 199.39 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4923,7 +4947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 125.73 0)
+			(at 199.39 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4955,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 120.65 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4940,7 +4964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 120.65 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4949,7 +4973,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 120.65 0)
+			(at 199.39 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5063,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 248.92 114.3 0)
+		(at 236.22 111.76 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5049,7 +5073,7 @@
 		(fields_autoplaced yes)
 		(uuid "864c79d3-c103-419c-aac5-ff96f3cea3e0")
 		(property "Reference" "J7"
-			(at 245.11 113.3231 0)
+			(at 232.41 110.7831 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5058,7 +5082,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 245.11 115.8631 0)
+			(at 232.41 113.3231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5091,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 248.92 114.3 0)
+			(at 236.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5100,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 248.92 114.3 0)
+			(at 236.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5109,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 248.92 114.3 0)
+			(at 236.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +5200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 92.71 90)
+		(at 184.15 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5185,7 +5209,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cee9598-52e8-40f8-8f74-96f43aa6a05a")
 		(property "Reference" "R1"
-			(at 196.85 86.36 90)
+			(at 184.15 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5193,7 +5217,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 196.85 88.9 90)
+			(at 184.15 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,7 +5225,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 94.488 90)
+			(at 184.15 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5234,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 92.71 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +5243,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 92.71 0)
+			(at 184.15 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5542,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 254 77.47 0)
+		(at 241.3 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5527,7 +5551,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4bbfc16-d6d0-4908-b050-0245883cdd82")
 		(property "Reference" "#PWR030"
-			(at 254 83.82 0)
+			(at 241.3 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5536,7 +5560,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 254 82.55 0)
+			(at 241.3 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5568,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 77.47 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5553,7 +5577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 77.47 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5562,7 +5586,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 254 77.47 0)
+			(at 241.3 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5608,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 204.47 104.14 0)
+		(at 191.77 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5593,7 +5617,7 @@
 		(fields_autoplaced yes)
 		(uuid "a56efddc-360b-40fd-bd61-f2645db6906c")
 		(property "Reference" "Q11"
-			(at 210.82 102.8699 0)
+			(at 198.12 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5602,7 +5626,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 210.82 105.4099 0)
+			(at 198.12 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5635,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 209.55 101.6 0)
+			(at 196.85 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5620,7 +5644,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 204.47 116.84 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +5653,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 204.47 104.14 0)
+			(at 191.77 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +5662,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 204.47 121.285 0)
+			(at 191.77 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5647,7 +5671,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 204.47 123.19 0)
+			(at 191.77 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5656,7 +5680,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 204.47 119.38 0)
+			(at 191.77 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 207.01 77.47 0)
+		(at 194.31 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5827,7 +5851,7 @@
 		(fields_autoplaced yes)
 		(uuid "aec733cd-fd0b-48ff-bb6b-76e005ff50b7")
 		(property "Reference" "#PWR029"
-			(at 207.01 83.82 0)
+			(at 194.31 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.01 82.55 0)
+			(at 194.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5844,7 +5868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 77.47 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +5877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 77.47 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5862,7 +5886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 77.47 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5908,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 251.46 134.62 0)
+		(at 238.76 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5893,7 +5917,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1ebb697-6aba-413a-b18e-786a915510cc")
 		(property "Reference" "Q14"
-			(at 257.81 133.3499 0)
+			(at 245.11 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +5926,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 257.81 135.8899 0)
+			(at 245.11 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +5935,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 256.54 132.08 0)
+			(at 243.84 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +5944,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 251.46 147.32 0)
+			(at 238.76 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5953,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 251.46 134.62 0)
+			(at 238.76 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5938,7 +5962,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 251.46 151.765 0)
+			(at 238.76 149.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5947,7 +5971,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 251.46 153.67 0)
+			(at 238.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5956,7 +5980,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 251.46 149.86 0)
+			(at 238.76 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5984,7 +6008,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
-		(at 251.46 66.04 0)
+		(at 238.76 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5993,7 +6017,7 @@
 		(fields_autoplaced yes)
 		(uuid "b22d64fd-ea6f-4bda-b0de-40f295e0afdf")
 		(property "Reference" "Q10"
-			(at 257.81 64.7699 0)
+			(at 245.11 62.2299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6026,7 @@
 			)
 		)
 		(property "Value" "NMOS"
-			(at 257.81 67.3099 0)
+			(at 245.11 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,7 +6035,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 256.54 63.5 0)
+			(at 243.84 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6044,7 @@
 			)
 		)
 		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 251.46 78.74 0)
+			(at 238.76 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +6053,7 @@
 			)
 		)
 		(property "Description" "DMN6069SE-13"
-			(at 251.46 66.04 0)
+			(at 238.76 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6062,7 @@
 			)
 		)
 		(property "Sim.Device" "NMOS"
-			(at 251.46 83.185 0)
+			(at 238.76 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +6071,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 251.46 85.09 0)
+			(at 238.76 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6080,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 251.46 81.28 0)
+			(at 238.76 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6154,7 +6178,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 212.09 53.34 0)
+		(at 199.39 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6163,7 +6187,7 @@
 		(fields_autoplaced yes)
 		(uuid "c282e392-527e-4882-9712-5f9d92bd0b64")
 		(property "Reference" "#PWR0115"
-			(at 212.09 59.69 0)
+			(at 199.39 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6196,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 212.09 58.42 0)
+			(at 199.39 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6180,7 +6204,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 53.34 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6189,7 +6213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 53.34 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6198,7 +6222,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 53.34 0)
+			(at 199.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6665,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial")
-		(at 248.92 46.99 0)
+		(at 236.22 44.45 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6651,7 +6675,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed4825ac-b3eb-4b24-a692-a12ae12cbc88")
 		(property "Reference" "J6"
-			(at 245.11 46.0131 0)
+			(at 232.41 43.4731 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6684,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 245.11 48.5531 0)
+			(at 232.41 46.0131 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6693,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
-			(at 248.92 46.99 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6702,7 @@
 			)
 		)
 		(property "Datasheet" " ~"
-			(at 248.92 46.99 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6711,7 @@
 			)
 		)
 		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 248.92 46.99 0)
+			(at 236.22 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 25.4 90)
+		(at 184.15 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6945,7 +6969,7 @@
 		(fields_autoplaced yes)
 		(uuid "fec2880f-0fc9-455e-aa7c-15a52a39c391")
 		(property "Reference" "R2"
-			(at 196.85 19.05 90)
+			(at 184.15 16.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6953,7 +6977,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 196.85 21.59 90)
+			(at 184.15 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6985,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 196.85 27.178 90)
+			(at 184.15 24.638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6994,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 25.4 0)
+			(at 184.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +7003,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 196.85 25.4 0)
+			(at 184.15 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
