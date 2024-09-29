@@ -820,6 +820,249 @@
 				)
 			)
 		)
+		(symbol "10_ICs:MAX9939"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.508 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MAX9939"
+				(at 4.064 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "SpecialStuff:uMAX 10 pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MAX9939_0_0"
+				(rectangle
+					(start 0 0)
+					(end 25.4 -22.86)
+					(stroke
+						(width 0.41)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MAX9939_1_0"
+				(pin bidirectional line
+					(at -5.08 -15.24 0)
+					(length 5.08)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -20.32 0)
+					(length 5.08)
+					(name "CS"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -17.78 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -20.32 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "INA-"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -5.08 0)
+					(length 5.08)
+					(name "INA+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -6.35 180)
+					(length 5.08)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -10.16 0)
+					(length 5.08)
+					(name "INB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -12.7 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Comparator:TLV3501AID"
 			(pin_names
 				(offset 0.127)
@@ -2782,6 +3025,16 @@
 		)
 		(uuid "47b3f9f8-40a9-4e03-9e2d-939acf3f2645")
 	)
+	(wire
+		(pts
+			(xy 370.84 93.98) (xy 340.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49d35794-5f1c-4f5f-9df7-c2cf09c6e7b3")
+	)
 	(bus
 		(pts
 			(xy 248.92 177.8) (xy 248.92 182.88)
@@ -2801,6 +3054,16 @@
 			(type default)
 		)
 		(uuid "5151dee4-e584-4d8b-b6d5-4dc31bb29322")
+	)
+	(wire
+		(pts
+			(xy 340.36 93.98) (xy 340.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5342c67d-1193-44e6-aceb-1fdfdcda1a5d")
 	)
 	(wire
 		(pts
@@ -4163,6 +4426,17 @@
 		)
 		(uuid "5a3a9fed-d5ab-469d-b7eb-8050321408b0")
 	)
+	(text "Add fully diferential amplifier on the input \nchange the mosfet switch to JFET analog switch"
+		(exclude_from_sim no)
+		(at 300.99 256.032 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d173e194-bfaf-4da7-b22a-820dbb83644e")
+	)
 	(label "STOP_SIGNAL"
 		(at 356.87 82.55 0)
 		(fields_autoplaced yes)
@@ -4628,6 +4902,18 @@
 		)
 		(uuid "198d61ee-d09c-4b81-8c72-6770fb03a342")
 	)
+	(hierarchical_label "COMP_SHT"
+		(shape input)
+		(at 370.84 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1cd5ecc2-3fc0-4cd4-89b7-38b170ee28f7")
+	)
 	(hierarchical_label "DAC_SPI"
 		(shape input)
 		(at 231.14 190.5 180)
@@ -4936,6 +5222,98 @@
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
 					(reference "U6")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10_ICs:MAX9939")
+		(at 161.29 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135dde14-c790-473f-b6ef-cb6c6f8d73d1")
+		(property "Reference" "U3"
+			(at 173.99 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX9939"
+			(at 173.99 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SpecialStuff:uMAX 10 pin"
+			(at 161.29 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "52084795-d546-4ec8-97c9-3e817b289f2d")
+		)
+		(pin "7"
+			(uuid "e05a28d6-d214-4803-8e48-6cc2ebbd44e7")
+		)
+		(pin "1"
+			(uuid "4388838a-b734-45c1-99b3-9becb4da4a8c")
+		)
+		(pin "4"
+			(uuid "911085ea-81ea-4ec4-8b9d-0fcd40d9bee6")
+		)
+		(pin "10"
+			(uuid "72d7c96d-4a1d-4340-a795-82764f3a4726")
+		)
+		(pin "5"
+			(uuid "afce1053-8a71-4f17-a6ad-654c164ed38f")
+		)
+		(pin "3"
+			(uuid "05b0e4a0-1af8-456b-9873-00bef98f27f2")
+		)
+		(pin "2"
+			(uuid "386bcc76-5ef7-4c75-a5c6-baae0a310eb1")
+		)
+		(pin "9"
+			(uuid "bf66f4b0-0efb-4983-931a-0d9ce8e00742")
+		)
+		(pin "6"
+			(uuid "4e2a1345-a982-4a01-a7c3-328e419b69ca")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
+					(reference "U3")
+					(unit 1)
 				)
 			)
 		)
@@ -7617,7 +7995,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 337.82 56.642 90)
 			(effects
 				(font
@@ -7888,7 +8266,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 200.66 87.122 90)
 			(effects
 				(font
