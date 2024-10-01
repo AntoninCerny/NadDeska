@@ -2300,7 +2300,7 @@
 		)
 		(uuid "ce4f9932-95ec-466b-ab4d-e97da833f755")
 	)
-	(hierarchical_label "PHV"
+	(hierarchical_label "PHV_UNFUSED"
 		(shape input)
 		(at 269.24 60.96 0)
 		(fields_autoplaced yes)
@@ -2324,7 +2324,7 @@
 		)
 		(uuid "6fe014d2-625c-48f5-847a-d6ff3712c2b5")
 	)
-	(hierarchical_label "P15V-20V_5S_UNREGULATED"
+	(hierarchical_label "P15V-20V_5S_FUSED"
 		(shape input)
 		(at 63.5 60.96 180)
 		(fields_autoplaced yes)
