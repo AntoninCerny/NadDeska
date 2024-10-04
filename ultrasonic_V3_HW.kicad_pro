@@ -456,7 +456,19 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/AMP_CS": "rgb(115, 255, 162)",
+      "/DAC_CS": "rgb(155, 255, 188)",
+      "/P12V": "rgb(255, 255, 95)",
+      "/P3V3": "rgb(255, 255, 95)",
+      "/P3V_REF": "rgb(255, 255, 95)",
+      "/PHV": "rgb(255, 255, 95)",
+      "/SPI_LOCAL_MISO": "rgb(155, 255, 189)",
+      "/SPI_LOCAL_MOSI": "rgb(155, 255, 189)",
+      "/SPI_LOCAL_SCK": "rgb(155, 255, 189)",
+      "/fpga/SRAM_CS": "rgb(115, 255, 162)",
+      "/fpga/TDC_CS": "rgb(155, 255, 189)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },

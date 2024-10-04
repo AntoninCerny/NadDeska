@@ -5,6 +5,232 @@
 	(uuid "1af108de-fd3d-4fbf-b19e-8ce8de8f709a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "10_ICs:TMUX7219"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0.762 0.762 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TMUX7219_1_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -13.97 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -8.89 0)
+					(length 2.54)
+					(name "SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TMUX7219_2_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 12.7 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 -3.81 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -13.97 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
@@ -4118,6 +4344,93 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10_ICs:TMUX7219")
+		(at 166.37 53.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "13cba29f-f3ba-499e-a31b-e5c2b7cd6f31")
+		(property "Reference" "U19"
+			(at 161.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 161.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30444a91-be80-41a9-a519-4f1d5bfb9e9a")
+		)
+		(pin "6"
+			(uuid "2d58c788-d732-45de-b872-97397101311c")
+		)
+		(pin "5"
+			(uuid "a4603e2c-c141-407d-a617-580cf826ed84")
+		)
+		(pin "7"
+			(uuid "b16f7060-8a85-4a97-93b7-2ba189810c8f")
+		)
+		(pin "8"
+			(uuid "a551c2ae-b174-4a68-8452-f4171b12d688")
+		)
+		(pin "1"
+			(uuid "31e92c29-c18a-4522-895b-bf85ea41bcb2")
+		)
+		(pin "3"
+			(uuid "68f3734a-2490-4d16-ac43-2cb9ca76b06e")
+		)
+		(pin "4"
+			(uuid "7785ffb9-6a1e-448b-8f3f-046966378d61")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "U19")
 					(unit 1)
 				)
 			)
@@ -8691,6 +9004,93 @@
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
 					(reference "R39")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10_ICs:TMUX7219")
+		(at 168.91 177.8 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7101491-824c-40bf-bff9-9a48f1ad00b0")
+		(property "Reference" "U19"
+			(at 163.83 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 163.83 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:VSSOP-8_3.0x3.0mm_P0.65mm"
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30444a91-be80-41a9-a519-4f1d5bfb9e9a")
+		)
+		(pin "6"
+			(uuid "2d58c788-d732-45de-b872-97397101311c")
+		)
+		(pin "5"
+			(uuid "a4603e2c-c141-407d-a617-580cf826ed84")
+		)
+		(pin "7"
+			(uuid "b16f7060-8a85-4a97-93b7-2ba189810c8f")
+		)
+		(pin "8"
+			(uuid "a551c2ae-b174-4a68-8452-f4171b12d688")
+		)
+		(pin "1"
+			(uuid "31e92c29-c18a-4522-895b-bf85ea41bcb2")
+		)
+		(pin "3"
+			(uuid "68f3734a-2490-4d16-ac43-2cb9ca76b06e")
+		)
+		(pin "4"
+			(uuid "7785ffb9-6a1e-448b-8f3f-046966378d61")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/ae9acf88-c042-4005-997d-04f4c43f38c7"
+					(reference "U19")
+					(unit 2)
 				)
 			)
 		)
