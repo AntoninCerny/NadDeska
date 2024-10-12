@@ -1800,319 +1800,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2223,12 +1910,6 @@
 		(uuid "028b3ba7-0d52-4267-9fff-c052b1f78fcf")
 	)
 	(junction
-		(at 77.47 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "078239b1-665e-491e-b676-829ab9b3736f")
-	)
-	(junction
 		(at 110.49 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2313,12 +1994,6 @@
 		(uuid "6b884b18-f1c6-4082-b20a-f8e87ceccd1c")
 	)
 	(junction
-		(at 77.47 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c2a41fe-d026-481d-9dfa-05487b64eda2")
-	)
-	(junction
 		(at 243.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2391,12 +2066,6 @@
 		(uuid "a11d35ab-aa24-413a-a49b-5e5a16e98359")
 	)
 	(junction
-		(at 77.47 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa73a056-8d3f-476f-a692-9ef2568a2906")
-	)
-	(junction
 		(at 391.16 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2455,12 +2124,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecfef5d2-acf4-40ff-8505-4da26db61dab")
-	)
-	(junction
-		(at 77.47 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eeb29136-df1a-4f6c-9c93-dc4a8a2085be")
 	)
 	(junction
 		(at 304.8 184.15)
@@ -2664,16 +2327,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 81.28) (xy 77.47 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00eb34fa-f8cd-4ae0-bfef-1d1aedfa6f01")
-	)
-	(wire
-		(pts
 			(xy 139.7 80.01) (xy 157.48 80.01)
 		)
 		(stroke
@@ -2704,23 +2357,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 80.01) (xy 139.7 80.01)
+			(xy 119.38 87.63) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "054d7850-c810-45cb-9804-c0e310e89197")
-	)
-	(wire
-		(pts
-			(xy 82.55 72.39) (xy 111.76 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09620ccd-0ef8-4ce9-9dc9-aa83511a7941")
+		(uuid "06607e3d-4c6c-4dab-8d47-cee38c04ac2f")
 	)
 	(wire
 		(pts
@@ -2731,16 +2374,6 @@
 			(type default)
 		)
 		(uuid "09fc49a8-f46a-487f-b90a-14b7489144c9")
-	)
-	(wire
-		(pts
-			(xy 64.77 128.27) (xy 67.31 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db2a157-3f8d-45a6-9a70-b1f9e7464ff8")
 	)
 	(wire
 		(pts
@@ -2821,16 +2454,6 @@
 			(type default)
 		)
 		(uuid "10ec5019-fff0-46c8-9608-1292633d9299")
-	)
-	(wire
-		(pts
-			(xy 82.55 97.79) (xy 111.76 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11020c2a-6404-48ad-a877-c29e35569619")
 	)
 	(wire
 		(pts
@@ -2984,16 +2607,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 80.01 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23897ddd-cd33-4c8b-8332-14e538537eb7")
-	)
-	(wire
-		(pts
 			(xy 254 106.68) (xy 254 111.76)
 		)
 		(stroke
@@ -3081,16 +2694,6 @@
 			(type default)
 		)
 		(uuid "359f6787-00de-4fd4-a14c-7a5f3fb81077")
-	)
-	(wire
-		(pts
-			(xy 77.47 106.68) (xy 77.47 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3801709c-6771-4db9-8b3a-f1630a3cc703")
 	)
 	(wire
 		(pts
@@ -3294,23 +2897,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 59.69) (xy 91.44 59.69)
+			(xy 119.38 80.01) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "54bd7fbe-3afb-4b47-adfa-a7335be0cd0c")
-	)
-	(wire
-		(pts
-			(xy 68.58 97.79) (xy 72.39 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "557fbbc3-d95f-418a-aa39-9b9378468aec")
+		(uuid "54f72b93-3038-47e8-b591-67ff51e13a6d")
 	)
 	(wire
 		(pts
@@ -3444,26 +3037,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 72.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6127eb1d-1dfe-4883-a5ea-0bacff7b48d2")
-	)
-	(wire
-		(pts
-			(xy 87.63 81.28) (xy 91.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "613ebefb-4b46-4ed0-b534-35dcc9d85b54")
-	)
-	(wire
-		(pts
 			(xy 139.7 92.71) (xy 157.48 92.71)
 		)
 		(stroke
@@ -3491,16 +3064,6 @@
 			(type default)
 		)
 		(uuid "681e521a-6a5a-4635-ad0b-e8c348e31195")
-	)
-	(wire
-		(pts
-			(xy 87.63 106.68) (xy 91.44 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6851140e-a143-45ce-bdfa-74fe64494f84")
 	)
 	(wire
 		(pts
@@ -3554,16 +3117,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 81.28) (xy 77.47 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e4a7bb6-9ba9-4c39-8271-054346825a5c")
-	)
-	(wire
-		(pts
 			(xy 242.57 210.82) (xy 226.06 210.82)
 		)
 		(stroke
@@ -3614,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 59.69) (xy 67.31 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "765ef823-c820-41c2-8020-6bbfff736656")
-	)
-	(wire
-		(pts
 			(xy 261.62 170.18) (xy 266.7 170.18)
 		)
 		(stroke
@@ -3634,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 50.8) (xy 111.76 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "785f8b98-b478-4191-9bd3-fd02513e0106")
-	)
-	(wire
-		(pts
 			(xy 100.33 167.64) (xy 180.34 167.64)
 		)
 		(stroke
@@ -3651,16 +3184,6 @@
 			(type default)
 		)
 		(uuid "796da938-9536-40b1-875f-4fe31021c017")
-	)
-	(wire
-		(pts
-			(xy 77.47 106.68) (xy 80.01 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79826639-cb1a-49b3-8220-904497a4d27a")
 	)
 	(wire
 		(pts
@@ -3684,16 +3207,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 119.38) (xy 111.76 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ae2be09-a97a-462a-9794-8cb9bfa2e422")
-	)
-	(wire
-		(pts
 			(xy 100.33 177.8) (xy 119.38 177.8)
 		)
 		(stroke
@@ -3714,7 +3227,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 139.7 83.82)
+			(xy 143.51 83.82) (xy 139.7 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3734,16 +3247,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 106.68) (xy 77.47 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f0b514d-266e-4221-94ce-e45b4a84dbde")
-	)
-	(wire
-		(pts
 			(xy 63.5 170.18) (xy 77.47 170.18)
 		)
 		(stroke
@@ -3751,16 +3254,6 @@
 			(type default)
 		)
 		(uuid "803d04a3-0041-463f-aa9d-94fb332e17f1")
-	)
-	(wire
-		(pts
-			(xy 64.77 81.28) (xy 67.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81817acc-7a22-4355-bc1f-11644da656b7")
 	)
 	(wire
 		(pts
@@ -3801,26 +3294,6 @@
 			(type default)
 		)
 		(uuid "843da75b-8b5a-4294-adc9-ba1ba8b67615")
-	)
-	(wire
-		(pts
-			(xy 77.47 59.69) (xy 77.47 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85c43606-0af8-46a6-b8c6-fa42336e6d59")
-	)
-	(wire
-		(pts
-			(xy 68.58 72.39) (xy 72.39 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8600aa2b-a28a-4976-a415-09d326167d61")
 	)
 	(wire
 		(pts
@@ -3984,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 50.8) (xy 72.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc7f506-9e6c-4b85-be8d-1102ec96e6ce")
-	)
-	(wire
-		(pts
 			(xy 123.19 218.44) (xy 110.49 218.44)
 		)
 		(stroke
@@ -4041,16 +3504,6 @@
 			(type default)
 		)
 		(uuid "a0f0c304-8dc2-485f-a822-003883da41d1")
-	)
-	(wire
-		(pts
-			(xy 64.77 106.68) (xy 67.31 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a231fa1f-9fc3-46f3-97f9-0731dc511cb8")
 	)
 	(wire
 		(pts
@@ -4274,16 +3727,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 128.27) (xy 80.01 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcdbf46c-014d-4bbe-a30e-5c0eb49ff772")
-	)
-	(wire
-		(pts
 			(xy 354.33 71.12) (xy 354.33 77.47)
 		)
 		(stroke
@@ -4414,7 +3857,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 83.82) (xy 154.94 83.82)
+			(xy 151.13 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4471,16 +3914,6 @@
 			(type default)
 		)
 		(uuid "ca20f492-c90b-40c0-9aa0-7d23aabb7420")
-	)
-	(wire
-		(pts
-			(xy 87.63 128.27) (xy 91.44 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cacf7fca-ea69-437f-9e47-d5eac1564b68")
 	)
 	(wire
 		(pts
@@ -4542,16 +3975,6 @@
 		)
 		(uuid "d75fb968-e697-47ce-a360-193126f9aafc")
 	)
-	(wire
-		(pts
-			(xy 77.47 128.27) (xy 77.47 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d83ef08a-d8e9-4e18-aaf2-8c9af7417a81")
-	)
 	(bus
 		(pts
 			(xy 60.96 162.56) (xy 60.96 160.02)
@@ -4561,16 +3984,6 @@
 			(type default)
 		)
 		(uuid "d8ac8b7a-1b5d-4792-bb42-a24a66017a33")
-	)
-	(wire
-		(pts
-			(xy 121.92 87.63) (xy 154.94 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae96a1b-68af-40fb-b467-c1d668bb5728")
 	)
 	(wire
 		(pts
@@ -4601,26 +4014,6 @@
 			(type default)
 		)
 		(uuid "dbddee56-6871-492b-91cb-1b9e4cc06eb9")
-	)
-	(wire
-		(pts
-			(xy 74.93 128.27) (xy 77.47 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de84e270-7144-4bca-9f63-86526d24d0e5")
-	)
-	(wire
-		(pts
-			(xy 77.47 59.69) (xy 80.01 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e06fc804-ae72-4d73-b449-d344bb93b051")
 	)
 	(wire
 		(pts
@@ -4794,17 +4187,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 59.69) (xy 77.47 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46cdb78-d683-4a75-800b-6faf8725b956")
-	)
-	(wire
-		(pts
-			(xy 105.41 198.12) (xy 105.41 203.6169)
+			(xy 105.41 198.12) (xy 105.41 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +4277,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 211.2369) (xy 105.41 213.36)
+			(xy 105.41 210.82) (xy 105.41 213.36)
 		)
 		(stroke
 			(width 0)
@@ -4923,7 +4306,7 @@
 		)
 		(uuid "5a3a9fed-d5ab-469d-b7eb-8050321408b0")
 	)
-	(text "Add fully diferential amplifier on the input \nchange the mosfet switch to JFET analog switch"
+	(text "Add fully diferential amplifier on the input 		DONE\nchange the mosfet switch to IC						DONE\n"
 		(exclude_from_sim no)
 		(at 300.99 256.032 0)
 		(effects
@@ -4966,17 +4349,6 @@
 			(justify right bottom)
 		)
 		(uuid "0b14fad9-cd31-486f-8ce4-52d9d93f7e59")
-	)
-	(label "SIGNAL_UNAMPLIFIED_N"
-		(at 111.76 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0e0faef2-5e55-46fe-ad69-76e4aac3b441")
 	)
 	(label "P3V_REF"
 		(at 265.43 66.04 180)
@@ -5121,28 +4493,6 @@
 		)
 		(uuid "42faa3ce-fe94-44a9-b7b1-372744a358f5")
 	)
-	(label "SIGNAL_UNAMPLIFIED_N"
-		(at 121.92 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61799270-2529-49f2-8221-229c66a89761")
-	)
-	(label "SIGNAL_UNAMPLIFIED_N"
-		(at 111.76 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6970f46b-c400-413d-8655-34f84470a537")
-	)
 	(label "ADC_D7"
 		(at 63.5 215.9 0)
 		(fields_autoplaced yes)
@@ -5252,17 +4602,6 @@
 			(justify left bottom)
 		)
 		(uuid "96d097f7-a4e6-4f3c-accc-4a8671c9562d")
-	)
-	(label "SIGNAL_UNAMPLIFIED_P"
-		(at 111.76 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "993644e4-ce2f-4a2b-aaf7-dc4f58fdf057")
 	)
 	(label "DAC_COMPARATOR_REF"
 		(at 316.23 170.18 180)
@@ -5385,17 +4724,6 @@
 		)
 		(uuid "ba2f23e5-a890-42a1-ac29-02fb815c084a")
 	)
-	(label "SIGNAL_UNAMPLIFIED_P"
-		(at 111.76 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba99e47a-83bb-419f-a7df-bc95a480d8fa")
-	)
 	(label "AMPLIFIED_SIGNAL_P"
 		(at 219.71 167.64 180)
 		(fields_autoplaced yes)
@@ -5439,17 +4767,6 @@
 			(justify right bottom)
 		)
 		(uuid "d66b64da-d248-4a78-91b9-3c69154bc67d")
-	)
-	(label "SIGNAL_UNAMPLIFIED_P"
-		(at 121.92 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d746f2af-f9fa-4e80-93f1-2dac83797694")
 	)
 	(label "AMPLIFIED_SIGNAL"
 		(at 285.75 59.69 0)
@@ -5529,30 +4846,6 @@
 		)
 		(uuid "016f5283-b0f8-4b50-9fe6-67549b204033")
 	)
-	(hierarchical_label "BRIDGE_D_SIGNAL"
-		(shape input)
-		(at 68.58 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f468685-b4b6-4c70-a2a8-9be9955969c1")
-	)
-	(hierarchical_label "BRIDGE_C_SIGNAL"
-		(shape input)
-		(at 68.58 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "135369e3-4661-433a-93d9-8bf6515707c5")
-	)
 	(hierarchical_label "{LOCAL_SPI}"
 		(shape input)
 		(at 208.28 223.52 180)
@@ -5588,18 +4881,6 @@
 			(justify right)
 		)
 		(uuid "509bacd7-5446-4b12-8e85-0030bba158df")
-	)
-	(hierarchical_label "EN_SIGNAL_C"
-		(shape input)
-		(at 64.77 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7a348b09-92e9-46af-92d0-501d3a17055e")
 	)
 	(hierarchical_label "STOP_SIGNAL"
 		(shape input)
@@ -5637,18 +4918,6 @@
 		)
 		(uuid "9ad746d3-e511-464c-8544-ef61189f6794")
 	)
-	(hierarchical_label "BRIDGE_A_SIGNAL"
-		(shape input)
-		(at 68.58 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9af11be8-a0a5-4325-9a26-44adb2f8f1d7")
-	)
 	(hierarchical_label "ADC_D[0..9]"
 		(shape input)
 		(at 45.72 175.26 180)
@@ -5661,9 +4930,9 @@
 		)
 		(uuid "9be9a576-95b0-4d07-8941-041cca467624")
 	)
-	(hierarchical_label "EN_SIGNAL_D"
+	(hierarchical_label "SIGNAL_UNAMPLIFIED_P"
 		(shape input)
-		(at 64.77 128.27 180)
+		(at 119.38 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5671,11 +4940,11 @@
 			)
 			(justify right)
 		)
-		(uuid "afdb1dc3-4b16-4071-8d3c-1b1e07ab8559")
+		(uuid "d52a8722-9009-4a25-8502-acc52d86332f")
 	)
-	(hierarchical_label "BRIDGE_B_SIGNAL"
+	(hierarchical_label "SIGNAL_UNAMPLIFIED_N"
 		(shape input)
-		(at 68.58 72.39 180)
+		(at 119.38 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5683,31 +4952,7 @@
 			)
 			(justify right)
 		)
-		(uuid "c3d61e45-5519-4c36-aef2-04fce6129e6b")
-	)
-	(hierarchical_label "EN_SIGNAL_B"
-		(shape input)
-		(at 64.77 81.28 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6527469-942b-4e21-a11b-4b586149439e")
-	)
-	(hierarchical_label "EN_SIGNAL_A"
-		(shape input)
-		(at 64.77 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff3ae10d-f8e0-44d7-a017-7e0f21b67cd4")
+		(uuid "f54e5032-0bba-4d8f-b874-e8c40c8cd8e7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5792,7 +5037,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 241.554 85.09 90)
 			(effects
 				(font
@@ -5861,7 +5106,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 73.66 237.4899 0)
 			(effects
 				(font
@@ -5996,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 194.564 85.09 90)
 			(effects
 				(font
@@ -6461,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 377.19 194.31 90)
 			(effects
 				(font
@@ -6578,171 +5823,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b94e8d0-c79e-46ec-a0c8-198612ac1185")
-		(property "Reference" "R6"
-			(at 70.866 78.486 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12"
-			(at 71.374 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0cc4494f-294f-47ac-96c5-59ea755d41e0")
-		)
-		(pin "1"
-			(uuid "acf3df6f-de8d-4424-8ee6-f1dda47fbbd0")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 77.47 100.33 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34316798-f63f-4a96-90f9-334b85606c93")
-		(property "Reference" "Q3"
-			(at 77.47 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 77.47 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 74.93 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"
-			(at 90.17 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RUC002N05HZGT116"
-			(at 77.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 94.615 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 96.52 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 92.71 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b6d64920-83ad-4653-943e-ef975ed31b63")
-		)
-		(pin "3"
-			(uuid "c42f5bc8-46b9-4957-9da2-a7fe44d88a59")
-		)
-		(pin "1"
-			(uuid "38b836ec-54b7-448f-8868-e2cc764fac0f")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 151.13 179.07 180)
 		(unit 1)
@@ -6761,7 +5841,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 154.7927 180.3399 0)
 			(effects
 				(font
@@ -6807,73 +5887,6 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
 					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "390fff6f-ef43-44d9-b286-409e763a3824")
-		(property "Reference" "R11"
-			(at 70.866 125.476 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12"
-			(at 71.374 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f04e7d23-fa34-4fd9-a747-ec2eac0df373")
-		)
-		(pin "1"
-			(uuid "49d2fae7-18a9-430f-8563-1b9fbab8b713")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7012,140 +6025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c998281-32e7-4692-940e-c385a5438c01")
-		(property "Reference" "R13"
-			(at 83.82 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 83.82 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 83.058 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0fb4cc86-4847-4d61-8fbe-c65c3885ce96")
-		)
-		(pin "1"
-			(uuid "3e5a841a-f91a-4c34-a25f-ba8b064c0500")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 81.28 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "442a0d21-ac47-4b3c-8359-6c62f1fddf6e")
-		(property "Reference" "#PWR0139"
-			(at 97.79 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "99811aeb-3a54-4db3-a9cb-536062d499c8")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "#PWR0139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 127 177.8 270)
 		(unit 1)
@@ -7162,7 +6041,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 131.064 179.324 90)
 			(effects
 				(font
@@ -7229,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 118.11 200.406 90)
 			(effects
 				(font
@@ -7298,7 +6177,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7u"
+		(property "Value" "C"
 			(at 127 226.0599 0)
 			(effects
 				(font
@@ -7367,7 +6246,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 377.19 168.91 90)
 			(effects
 				(font
@@ -7419,7 +6298,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 207.4269 0)
+		(at 105.41 207.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7427,15 +6306,15 @@
 		(dnp no)
 		(uuid "4bab990b-703d-43fc-892a-b598630a75f7")
 		(property "Reference" "R15"
-			(at 100.584 207.4269 90)
+			(at 100.584 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 103.124 207.4269 90)
+		(property "Value" "R"
+			(at 103.124 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7443,7 +6322,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 103.632 207.4269 90)
+			(at 103.632 207.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,7 +6331,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 207.4269 0)
+			(at 105.41 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7461,7 +6340,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 207.4269 0)
+			(at 105.41 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7551,73 +6430,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d993a22-7e99-4423-baca-8f78786cbcf4")
-		(property "Reference" "R9"
-			(at 70.866 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12"
-			(at 71.374 62.484 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b273ceb-fc4e-4cb0-90ea-87a31b279297")
-		)
-		(pin "1"
-			(uuid "1cc5efad-1c58-4312-acdd-2ca75faab4c8")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 151.13 185.42 0)
 		(unit 1)
@@ -7700,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 198.374 92.71 90)
 			(effects
 				(font
@@ -7768,7 +6580,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 237.4899 76.3473 0)
 			(effects
 				(font
@@ -7836,7 +6648,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 264.16 57.404 90)
 			(effects
 				(font
@@ -7881,74 +6693,6 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 83.82 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5caae441-e54c-40c1-92d2-309baeae1d0b")
-		(property "Reference" "R12"
-			(at 83.82 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 83.82 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b2fa7a23-e2cc-45d4-b66d-24f4aa59ae22")
-		)
-		(pin "1"
-			(uuid "71ce2522-1d2d-40a1-86fa-fe3d3811373c")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8181,172 +6925,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68f7ba38-5c7a-4431-9848-ff0282cf38c5")
-		(property "Reference" "R10"
-			(at 83.82 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 83.82 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d5a051c9-4886-457d-b962-c48da5c17e3c")
-		)
-		(pin "1"
-			(uuid "6a03cbbf-0a0c-48c1-a17c-3ea125643dc6")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 77.47 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "702909c7-9278-442c-b476-e34efcb36f27")
-		(property "Reference" "Q1"
-			(at 77.47 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 77.47 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 74.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"
-			(at 90.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RUC002N05HZGT116"
-			(at 77.47 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 94.615 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 96.52 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 92.71 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb2d8a2e-e656-4544-8ba6-bb3f3c956232")
-		)
-		(pin "3"
-			(uuid "c292a248-9ed1-4d65-9084-7ad6ee742881")
-		)
-		(pin "1"
-			(uuid "bbead96b-71f6-4c9a-a208-fc7bb6ba8cd5")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 317.5 190.5 180)
 		(unit 1)
@@ -8365,7 +6943,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 321.1627 191.7699 0)
 			(effects
 				(font
@@ -8433,7 +7011,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 266.7 92.964 90)
 			(effects
 				(font
@@ -8501,7 +7079,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 251.714 102.87 90)
 			(effects
 				(font
@@ -8653,7 +7231,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 116.84 191.516 90)
 			(effects
 				(font
@@ -8705,7 +7283,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 148.59 83.82 270)
+		(at 147.32 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8713,7 +7291,7 @@
 		(dnp no)
 		(uuid "83a8a3ed-01cc-42a9-a716-1d3a21a89301")
 		(property "Reference" "C12"
-			(at 144.78 82.042 90)
+			(at 145.288 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8721,8 +7299,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100p"
-			(at 155.702 82.296 90)
+		(property "Value" "C"
+			(at 154.432 82.296 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +7309,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 144.78 84.7852 0)
+			(at 143.51 84.7852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8740,7 +7318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8749,7 +7327,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 148.59 83.82 0)
+			(at 147.32 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8790,7 +7368,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 142.24 168.91 90)
 			(effects
 				(font
@@ -8841,268 +7419,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "872066de-5f68-487f-be9e-2bf3870dcd91")
-		(property "Reference" "#PWR0141"
-			(at 97.79 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63c6fe37-248c-47ab-bdc3-dd6d5c86e7ba")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "#PWR0141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 77.47 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f5ece47-1776-4e5b-a747-78b7ce5b25a4")
-		(property "Reference" "Q4"
-			(at 77.47 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 77.47 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 74.93 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"
-			(at 90.17 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RUC002N05HZGT116"
-			(at 77.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 94.615 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 96.52 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 92.71 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3d9d9d45-b41d-4a03-a2bc-e21d01790687")
-		)
-		(pin "3"
-			(uuid "a2c08b7a-7c4e-4375-84a0-326089898def")
-		)
-		(pin "1"
-			(uuid "5e4d78c8-954b-4ef2-96c3-ce47f8cb24e0")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 77.47 74.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a1f4cd0-0459-4b71-b11b-30c8a298bee7")
-		(property "Reference" "Q2"
-			(at 77.47 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 77.47 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 74.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/ROHM-Semiconductor/RUC002N05HZGT116?qs=4v%252BiZTmLVHE0lwSK%2FDyNsA%3D%3D"
-			(at 90.17 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RUC002N05HZGT116"
-			(at 77.47 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 94.615 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 96.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 92.71 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ad90f6fe-3cf7-4dce-a3ba-ae6d979a2262")
-		)
-		(pin "3"
-			(uuid "2588e5c3-4286-4276-bc58-6300f14e5c51")
-		)
-		(pin "1"
-			(uuid "19d31e4d-d2e9-4fcc-af45-852d34c01f3d")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 184.15 167.64 270)
 		(unit 1)
@@ -9120,7 +7436,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 184.15 163.83 90)
 			(effects
 				(font
@@ -9263,73 +7579,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 71.12 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b61f6c17-2edc-4e88-9d0b-cb38545c35ed")
-		(property "Reference" "R4"
-			(at 70.866 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12"
-			(at 71.374 109.474 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 71.12 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7e151130-50db-49dd-86df-39f7b27909c0")
-		)
-		(pin "1"
-			(uuid "827ff4cb-dedd-4b0e-b4da-de9a3fc585bb")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 304.8 190.5 180)
 		(unit 1)
@@ -9348,7 +7597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 308.4627 191.7699 0)
 			(effects
 				(font
@@ -9417,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 257.81 166.37 90)
 			(effects
 				(font
@@ -9551,7 +7800,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "R"
 			(at 308.61 78.74 90)
 			(effects
 				(font
@@ -9618,7 +7867,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 244.094 74.93 90)
 			(effects
 				(font
@@ -9686,7 +7935,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 377.19 157.48 90)
 			(effects
 				(font
@@ -9753,7 +8002,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 116.586 176.53 90)
 			(effects
 				(font
@@ -9804,74 +8053,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 83.82 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d53b20c8-1743-4d65-bf34-5b1e6cf09899")
-		(property "Reference" "R3"
-			(at 83.82 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 83.82 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 83.82 108.458 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 83.82 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "687e6daf-b851-4aeb-94a1-c82d77b7c74b")
-		)
-		(pin "1"
-			(uuid "ba6ab43a-bb3a-4f30-ba5e-d4162ec8e692")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 254 115.57 0)
 		(unit 1)
@@ -9889,7 +8070,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 250.3373 114.3001 0)
 			(effects
 				(font
@@ -10093,7 +8274,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "C"
 			(at 320.04 91.4399 0)
 			(effects
 				(font
@@ -10161,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 111.76 196.596 90)
 			(effects
 				(font
@@ -10279,138 +8460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 91.44 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de0f2fc8-ecc9-4baf-89a3-d945e129129f")
-		(property "Reference" "#PWR0140"
-			(at 97.79 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71387192-75a6-45a3-8b59-2c4f9fe992e6")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df004170-db18-4d18-9c28-ae55241109b2")
-		(property "Reference" "#PWR0138"
-			(at 97.79 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7aa4d09-6b40-4426-b993-f351391e306e")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/bbbd27e3-755b-468e-8e26-bb40916e3b9a"
-					(reference "#PWR0138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 283.21 82.55 270)
 		(unit 1)
@@ -10427,7 +8476,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 283.21 80.264 90)
 			(effects
 				(font
@@ -10494,7 +8543,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 121.92 186.436 90)
 			(effects
 				(font
@@ -10695,7 +8744,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 196.7027 175.2599 0)
 			(effects
 				(font
@@ -10765,7 +8814,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 114.3 226.0599 0)
 			(effects
 				(font

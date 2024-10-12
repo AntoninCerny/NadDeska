@@ -414,7 +414,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 12.954 3.556 0)
+				(at 69.342 -25.146 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -422,7 +422,7 @@
 				)
 			)
 			(property "Value" "MACHXO2-1200HC-4TG100C"
-				(at 13.716 1.27 0)
+				(at 81.788 -29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1983,7 +1983,7 @@
 			(symbol "LCMXO2-1200HC-4TG100C_5_1"
 				(rectangle
 					(start 0 0)
-					(end 25.4 -73.66)
+					(end 66.04 -45.72)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1993,7 +1993,7 @@
 					)
 				)
 				(text "MACHXO2\nPOWER\n"
-					(at 12.954 -2.794 0)
+					(at 33.782 -17.526 0)
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2001,7 +2001,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -7.62 0)
+					(at 5.08 2.54 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -2019,7 +2019,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -38.1 0)
+					(at 55.88 2.54 270)
 					(length 2.54)
 					(name "VCCIO3"
 						(effects
@@ -2037,7 +2037,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -55.88 0)
+					(at 26.67 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2055,7 +2055,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -40.64 0)
+					(at 53.34 2.54 270)
 					(length 2.54)
 					(name "VCCIO3"
 						(effects
@@ -2073,7 +2073,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -27.94 0)
+					(at 45.72 2.54 270)
 					(length 2.54)
 					(name "VCCIO2"
 						(effects
@@ -2091,7 +2091,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -58.42 0)
+					(at 29.21 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2109,7 +2109,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -60.96 0)
+					(at 31.75 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2127,7 +2127,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -30.48 0)
+					(at 43.18 2.54 270)
 					(length 2.54)
 					(name "VCCIO2"
 						(effects
@@ -2145,7 +2145,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -35.56 0)
+					(at 58.42 2.54 270)
 					(length 2.54)
 					(name "VCCIO3"
 						(effects
@@ -2163,7 +2163,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -5.08 0)
+					(at 7.62 2.54 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -2181,7 +2181,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -20.32 0)
+					(at 35.56 2.54 270)
 					(length 2.54)
 					(name "VCCIO1"
 						(effects
@@ -2199,7 +2199,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -63.5 0)
+					(at 34.29 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2217,7 +2217,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -53.34 0)
+					(at 24.13 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2235,7 +2235,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -66.04 0)
+					(at 36.83 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2253,7 +2253,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -22.86 0)
+					(at 33.02 2.54 270)
 					(length 2.54)
 					(name "VCCIO1"
 						(effects
@@ -2271,7 +2271,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -68.58 0)
+					(at 39.37 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2289,7 +2289,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -12.7 0)
+					(at 25.4 2.54 270)
 					(length 2.54)
 					(name "VCCIO0"
 						(effects
@@ -2307,7 +2307,25 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -71.12 0)
+					(at 5.08 -48.26 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 41.91 -48.26 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -2325,7 +2343,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 -15.24 0)
+					(at 22.86 2.54 270)
 					(length 2.54)
 					(name "VCCIO0"
 						(effects
@@ -2916,8 +2934,7 @@
 		)
 		(symbol "Diode:BAT54S"
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3226,5865 +3243,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LCMXO2-1200HC-4TG100C_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 69.342 -25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MACHXO2-1200HC-4TG100C"
-				(at 81.788 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
-				(at 13.97 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_1_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 0\n\n\n"
-					(at 12.954 -4.318 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PT17D/DONE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "76"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PT17C/INITN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "77"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PT16C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "78"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PT15D/PROGRAMN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PT15C/JTAGENB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "82"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PT15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "83"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PT15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "84"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PT12D/SDA/PCLKC0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "85"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PT12C/SCL/PCLKT0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "86"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PT12B/PCLKC0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "87"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PT12A/PCLKT0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "88"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PT11D/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "90"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PT11C/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "91"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PT10D/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "94"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PT10C/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "95"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PT10B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "96"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PT10A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "97"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PT9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "98"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PT9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "99"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_1_2_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 1\n\n"
-					(at 12.446 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PR10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PR10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PR9D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PR9C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PR9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PR9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PR8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PR8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PR8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PR5D/PCLKC1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PR5C/PCLKT1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PR5A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PR4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PR4C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PR4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PR3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PR3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PR2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PR2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_1_3_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 2\n\n"
-					(at 12.954 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PB4C/CSSPIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PB4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PB6A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PB6B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PB6C/MCLK/CCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PB6D/SO/SPISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PB9A/PCLKT2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PB9B/PCLKC2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PB11C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PB11D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PB11A/PCLKT2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PB11B/PCLKC2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PB15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PB15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PB18A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PB18B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PB18C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PB18D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PB20C/SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PB20D/SI/SISPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_1_4_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 3\n\n"
-					(at 13.462 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PL2C/L_GPLLT_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PL4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PL5A/PCLKT3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PL5B/PCLKC3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PL5C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PL5D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PL8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PL8B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PL8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PL8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PL2D/L_GPLLC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PL9A/PCLKT3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PL9B/PCLKC3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -66.04 0)
-					(length 2.54)
-					(name "PL10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PL10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PL3A/PCLKT3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PL3B/PCLKC3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PL3C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PL3D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PL4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_1_5_1"
-				(rectangle
-					(start 0 0)
-					(end 66.04 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "MACHXO2\nPOWER\n"
-					(at 33.782 -17.526 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "100"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 26.67 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 29.21 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 31.75 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 58.42 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 34.29 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 24.13 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 36.83 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 33.02 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 39.37 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "79"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -48.26 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "89"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 41.91 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "92"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "93"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LCMXO2-1200HC-4TG100C_2"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 69.342 -25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MACHXO2-1200HC-4TG100C"
-				(at 81.788 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
-				(at 13.97 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_2_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 0\n\n\n"
-					(at 12.954 -4.318 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PT17D/DONE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "76"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PT17C/INITN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "77"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PT16C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "78"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PT15D/PROGRAMN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PT15C/JTAGENB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "82"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PT15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "83"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PT15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "84"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PT12D/SDA/PCLKC0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "85"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PT12C/SCL/PCLKT0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "86"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PT12B/PCLKC0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "87"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PT12A/PCLKT0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "88"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PT11D/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "90"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PT11C/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "91"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PT10D/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "94"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PT10C/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "95"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PT10B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "96"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PT10A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "97"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PT9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "98"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PT9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "99"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_2_2_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 1\n\n"
-					(at 12.446 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PR10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PR10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PR9D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PR9C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PR9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PR9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PR8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PR8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PR8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PR5D/PCLKC1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PR5C/PCLKT1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PR5A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PR4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PR4C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PR4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PR3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PR3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PR2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PR2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_2_3_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 2\n\n"
-					(at 12.954 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PB4C/CSSPIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PB4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PB6A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PB6B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PB6C/MCLK/CCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PB6D/SO/SPISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PB9A/PCLKT2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PB9B/PCLKC2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PB11C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PB11D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PB11A/PCLKT2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PB11B/PCLKC2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PB15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PB15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PB18A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PB18B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PB18C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PB18D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PB20C/SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PB20D/SI/SISPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_2_4_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 3\n\n"
-					(at 13.462 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PL2C/L_GPLLT_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PL4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PL5A/PCLKT3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PL5B/PCLKC3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PL5C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PL5D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PL8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PL8B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PL8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PL8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PL2D/L_GPLLC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PL9A/PCLKT3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PL9B/PCLKC3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -66.04 0)
-					(length 2.54)
-					(name "PL10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PL10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PL3A/PCLKT3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PL3B/PCLKC3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PL3C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PL3D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PL4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_2_5_1"
-				(rectangle
-					(start 0 0)
-					(end 66.04 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "MACHXO2\nPOWER\n"
-					(at 33.782 -17.526 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "100"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 26.67 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 29.21 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 31.75 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 58.42 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 34.29 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 24.13 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 36.83 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 33.02 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 39.37 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "79"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -48.26 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "89"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 41.91 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "92"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "93"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "LCMXO2-1200HC-4TG100C_3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 69.342 -25.146 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MACHXO2-1200HC-4TG100C"
-				(at 81.788 -29.21 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_QFP:TQFP-100_14x14mm_P0.5mm"
-				(at 13.97 6.604 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 35.56 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_3_1_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 0\n\n\n"
-					(at 12.954 -4.318 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PT17D/DONE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "76"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PT17C/INITN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "77"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PT16C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "78"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PT15D/PROGRAMN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "81"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PT15C/JTAGENB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "82"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PT15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "83"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PT15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "84"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PT12D/SDA/PCLKC0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "85"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PT12C/SCL/PCLKT0_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "86"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PT12B/PCLKC0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "87"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PT12A/PCLKT0_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "88"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PT11D/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "90"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PT11C/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "91"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PT10D/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "94"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PT10C/TDO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "95"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PT10B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "96"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PT10A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "97"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PT9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "98"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PT9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "99"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_3_2_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 1\n\n"
-					(at 12.446 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PR10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "51"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PR10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "52"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PR9D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "53"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PR9C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "54"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PR9B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "57"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PR9A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "58"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PR8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "59"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PR8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "60"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PR8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "61"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PR5D/PCLKC1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "62"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PR5C/PCLKT1_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "63"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "64"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PR5A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "65"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PR4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "66"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PR4C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "67"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PR4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "68"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PR4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "69"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PR3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "70"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PR3A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "71"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PR2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "74"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "PR2A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "75"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_3_3_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 2\n\n"
-					(at 12.954 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PB4C/CSSPIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PB4D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PB6A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PB6B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PB6C/MCLK/CCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -22.86 0)
-					(length 2.54)
-					(name "PB6D/SO/SPISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PB9A/PCLKT2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -30.48 0)
-					(length 2.54)
-					(name "PB9B/PCLKC2_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PB11C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -43.18 0)
-					(length 2.54)
-					(name "PB11D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PB11A/PCLKT2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PB11B/PCLKC2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PB15A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PB15B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -55.88 0)
-					(length 2.54)
-					(name "PB18A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PB18B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PB18C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "45"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -63.5 0)
-					(length 2.54)
-					(name "PB18D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "47"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PB20C/SN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "48"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -71.12 0)
-					(length 2.54)
-					(name "PB20D/SI/SISPI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "49"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_3_4_1"
-				(rectangle
-					(start 0 0)
-					(end 25.4 -73.66)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "CPDL MACHXO2\nBANK 3\n\n"
-					(at 13.462 -3.302 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "PL2C/L_GPLLT_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -27.94 0)
-					(length 2.54)
-					(name "PL4B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -33.02 0)
-					(length 2.54)
-					(name "PL5A/PCLKT3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -35.56 0)
-					(length 2.54)
-					(name "PL5B/PCLKC3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -38.1 0)
-					(length 2.54)
-					(name "PL5C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -40.64 0)
-					(length 2.54)
-					(name "PL5D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -45.72 0)
-					(length 2.54)
-					(name "PL8A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -48.26 0)
-					(length 2.54)
-					(name "PL8B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -50.8 0)
-					(length 2.54)
-					(name "PL8C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -53.34 0)
-					(length 2.54)
-					(name "PL8D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "PL2D/L_GPLLC_IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -58.42 0)
-					(length 2.54)
-					(name "PL9A/PCLKT3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -60.96 0)
-					(length 2.54)
-					(name "PL9B/PCLKC3_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -66.04 0)
-					(length 2.54)
-					(name "PL10C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -68.58 0)
-					(length 2.54)
-					(name "PL10D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "PL3A/PCLKT3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -15.24 0)
-					(length 2.54)
-					(name "PL3B/PCLKC3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -17.78 0)
-					(length 2.54)
-					(name "PL3C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -20.32 0)
-					(length 2.54)
-					(name "PL3D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 -25.4 0)
-					(length 2.54)
-					(name "PL4A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "LCMXO2-1200HC-4TG100C_3_5_1"
-				(rectangle
-					(start 0 0)
-					(end 66.04 -45.72)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(text "MACHXO2\nPOWER\n"
-					(at 33.782 -17.526 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "100"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 55.88 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 26.67 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 53.34 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 45.72 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 29.21 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 31.75 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 43.18 2.54 270)
-					(length 2.54)
-					(name "VCCIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 58.42 2.54 270)
-					(length 2.54)
-					(name "VCCIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 7.62 2.54 270)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "50"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "55"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 34.29 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "56"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 24.13 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 36.83 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "72"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 33.02 2.54 270)
-					(length 2.54)
-					(name "VCCIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "73"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 39.37 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "79"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 25.4 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "80"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 -48.26 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "89"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 41.91 -48.26 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "92"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 22.86 2.54 270)
-					(length 2.54)
-					(name "VCCIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "93"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9498,8 +3656,44 @@
 		(uuid "03b4a75c-f063-4508-8d5e-a034c1807030")
 	)
 	(no_connect
+		(at 149.86 124.46)
+		(uuid "16340367-f1fb-4329-a927-7db4f76c5bb3")
+	)
+	(no_connect
+		(at 149.86 205.74)
+		(uuid "4640df9c-7ec2-4ed7-9cff-fe0a1899359c")
+	)
+	(no_connect
+		(at 149.86 154.94)
+		(uuid "56322585-7f60-47d5-bf8e-f3c9c3aa2d21")
+	)
+	(no_connect
+		(at 71.12 87.63)
+		(uuid "6cf694f9-2e13-44bd-9c73-5809130c281f")
+	)
+	(no_connect
+		(at 149.86 149.86)
+		(uuid "6d49b835-6eb7-4df1-a63b-eeede613b384")
+	)
+	(no_connect
+		(at 149.86 208.28)
+		(uuid "7f46c023-3777-4095-a685-68d739bf14b5")
+	)
+	(no_connect
+		(at 149.86 233.68)
+		(uuid "81f6fc3d-a95c-45c4-b69a-271ac422797d")
+	)
+	(no_connect
+		(at 149.86 210.82)
+		(uuid "859f6ae4-1e4b-4bed-be71-f3c22d81a823")
+	)
+	(no_connect
 		(at 313.69 68.58)
 		(uuid "9688a910-d0d0-45ed-bded-3f09da0f026d")
+	)
+	(no_connect
+		(at 149.86 248.92)
+		(uuid "dfb29701-0e87-4592-b3be-6e947fcb1ace")
 	)
 	(bus_entry
 		(at 210.82 99.06)
@@ -9893,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 241.3) (xy 281.94 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b77b01-2c04-4079-9100-a625faddb5cf")
+	)
+	(wire
+		(pts
 			(xy 195.58 128.27) (xy 208.28 128.27)
 		)
 		(stroke
@@ -10150,16 +4354,6 @@
 			(type default)
 		)
 		(uuid "10780ff4-0649-43e1-a286-d5e6a7b89ba5")
-	)
-	(wire
-		(pts
-			(xy 129.54 177.8) (xy 149.86 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10e0d261-7f88-434a-8aff-25c76cea299f")
 	)
 	(wire
 		(pts
@@ -10433,6 +4627,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 172.72) (xy 132.08 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21a4cadf-6094-4544-add0-b8f653192866")
+	)
+	(wire
+		(pts
 			(xy 52.07 125.73) (xy 59.69 125.73)
 		)
 		(stroke
@@ -10440,6 +4644,16 @@
 			(type default)
 		)
 		(uuid "23c790d5-e19f-4fbe-bc55-ec6c34d98a78")
+	)
+	(wire
+		(pts
+			(xy 149.86 129.54) (xy 124.46 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242f0ed0-7f98-49c6-8346-11c4e1cef250")
 	)
 	(wire
 		(pts
@@ -10761,6 +4975,16 @@
 		)
 		(uuid "34d0b62b-f2d3-4db7-b96b-68feab272d7c")
 	)
+	(wire
+		(pts
+			(xy 264.16 246.38) (xy 281.94 246.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "350154ae-8ea7-4dc4-a7e0-6df5b833e0ce")
+	)
 	(bus
 		(pts
 			(xy 210.82 152.4) (xy 210.82 149.86)
@@ -10861,6 +5085,16 @@
 		)
 		(uuid "3e2532c8-1792-47b2-b21e-067593ee6cc6")
 	)
+	(wire
+		(pts
+			(xy 149.86 177.8) (xy 132.08 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e759928-fd78-4b70-9d10-6609267dffea")
+	)
 	(bus
 		(pts
 			(xy 26.67 177.8) (xy 39.37 177.8)
@@ -10870,16 +5104,6 @@
 			(type default)
 		)
 		(uuid "3eae8ebe-149f-4963-9518-1f5200e21b0d")
-	)
-	(wire
-		(pts
-			(xy 361.95 88.9) (xy 382.27 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebe4da6-ade5-4042-92ca-77940197368c")
 	)
 	(wire
 		(pts
@@ -10933,16 +5157,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 170.18) (xy 149.86 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468259a9-d18f-4ace-84bc-bb40bc21c941")
-	)
-	(wire
-		(pts
 			(xy 127 256.54) (xy 149.86 256.54)
 		)
 		(stroke
@@ -10960,16 +5174,6 @@
 			(type default)
 		)
 		(uuid "491422cd-e6b9-4d9e-98bc-ea572f579233")
-	)
-	(wire
-		(pts
-			(xy 361.95 100.33) (xy 382.27 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a9ddd63-deb3-4044-8375-bdbc8aed2646")
 	)
 	(wire
 		(pts
@@ -11080,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "57257b37-3a83-4535-a866-0eb93021a013")
+	)
+	(wire
+		(pts
+			(xy 149.86 175.26) (xy 132.08 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583ea5d1-a19a-401a-b544-b7c7f64267d3")
 	)
 	(wire
 		(pts
@@ -11453,16 +5667,6 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 96.52) (xy 382.27 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73db4c46-982e-43e0-912f-a950243a47ad")
-	)
-	(wire
-		(pts
 			(xy 41.91 205.74) (xy 90.17 205.74)
 		)
 		(stroke
@@ -11513,6 +5717,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 236.22) (xy 281.94 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76ccf1b4-c961-4d61-b414-dabcd0143449")
+	)
+	(wire
+		(pts
 			(xy 306.07 251.46) (xy 316.23 251.46)
 		)
 		(stroke
@@ -11520,16 +5734,6 @@
 			(type default)
 		)
 		(uuid "76d1fadf-4364-47e2-b372-07ab2845879a")
-	)
-	(wire
-		(pts
-			(xy 361.95 92.71) (xy 382.27 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77b46903-18a3-4091-b597-8f2f5d9a63f5")
 	)
 	(wire
 		(pts
@@ -11630,16 +5834,6 @@
 			(type default)
 		)
 		(uuid "8338a284-280f-4f0f-9025-98ec1c3ce302")
-	)
-	(wire
-		(pts
-			(xy 129.54 172.72) (xy 149.86 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "833a2e04-b387-4a9e-a767-62f502d108e9")
 	)
 	(wire
 		(pts
@@ -12011,16 +6205,6 @@
 		)
 		(uuid "9b690c6b-9b9a-42a6-8b89-09e62e8e55cc")
 	)
-	(wire
-		(pts
-			(xy 129.54 175.26) (xy 149.86 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b861365-5c9c-4891-a514-4bfb39259c14")
-	)
 	(bus
 		(pts
 			(xy 39.37 203.2) (xy 39.37 195.58)
@@ -12153,6 +6337,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 251.46) (xy 281.94 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14427cb-aaa0-4952-8503-66e7f7e15168")
+	)
+	(wire
+		(pts
 			(xy 349.25 241.3) (xy 349.25 243.84)
 		)
 		(stroke
@@ -12200,6 +6394,16 @@
 			(type default)
 		)
 		(uuid "a3c8a849-9c24-4204-b06b-8e662644359a")
+	)
+	(wire
+		(pts
+			(xy 149.86 132.08) (xy 124.46 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a470f929-9686-432a-9b95-c389468b8a2b")
 	)
 	(wire
 		(pts
@@ -12823,6 +7027,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 223.52) (xy 289.56 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d713194b-7ea0-43de-a7b3-533c9c2060b5")
+	)
+	(wire
+		(pts
 			(xy 127 157.48) (xy 149.86 157.48)
 		)
 		(stroke
@@ -12960,6 +7174,16 @@
 			(type default)
 		)
 		(uuid "e1b5f4f7-d401-401d-8a73-07bb00d72ba0")
+	)
+	(wire
+		(pts
+			(xy 149.86 170.18) (xy 132.08 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e205ee05-dcb0-4ad0-bc46-6bea0cb00014")
 	)
 	(wire
 		(pts
@@ -13403,6 +7627,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 228.6) (xy 289.56 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcdedb5c-e009-42c3-8144-378e5391db5a")
+	)
+	(wire
+		(pts
 			(xy 320.04 62.23) (xy 320.04 60.96)
 		)
 		(stroke
@@ -13464,17 +7698,6 @@
 		)
 		(uuid "04be64a2-8be3-462a-b2cc-0b9ddb52f110")
 	)
-	(label "EN_SIGNAL_B"
-		(at 361.95 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07344960-8d60-4c7e-a1f9-a34bfe97a173")
-	)
 	(label "SRAM_CS"
 		(at 127 261.62 0)
 		(fields_autoplaced yes)
@@ -13485,6 +7708,17 @@
 			(justify left bottom)
 		)
 		(uuid "07f8c179-bfe7-4e2a-9dc3-0e7efea5d5ab")
+	)
+	(label "BRIDGE_AB_MUX_EN"
+		(at 289.56 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08919e1e-03ab-4433-b47b-c8481d4c69e3")
 	)
 	(label "P3V3"
 		(at 316.23 251.46 180)
@@ -13596,17 +7830,6 @@
 		)
 		(uuid "1b8bdced-57f6-4514-86ba-b59ac81d95c2")
 	)
-	(label "EN_SIGNAL_D"
-		(at 361.95 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d2a9236-efca-46d6-b559-c4bfb6b858d0")
-	)
 	(label "CNTRL_GPIO1"
 		(at 53.34 92.71 0)
 		(fields_autoplaced yes)
@@ -13694,6 +7917,17 @@
 			(justify left bottom)
 		)
 		(uuid "25e2ef07-6c37-4b7b-bd01-caf6a8670c10")
+	)
+	(label "BRIDGE_CD_MUX_EN"
+		(at 289.56 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2650a6c1-3742-4a99-a3bc-d561ee1bd66e")
 	)
 	(label "JTAG_TDO"
 		(at 55.88 46.99 0)
@@ -13783,6 +8017,28 @@
 		)
 		(uuid "341b2aa3-7fa3-4970-8565-4e7e28680587")
 	)
+	(label "BRIDGE_CD_MUX_EN"
+		(at 124.46 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34cb308a-4faa-42cf-8ccc-17c72a4663c8")
+	)
+	(label "BRIDGE_AB_MUX_EN"
+		(at 124.46 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3510527a-ddfe-4d28-8732-080893bd5e1e")
+	)
 	(label "ADC_D6"
 		(at 132.08 53.34 0)
 		(fields_autoplaced yes)
@@ -13793,17 +8049,6 @@
 			(justify left bottom)
 		)
 		(uuid "3648c84a-9ea1-4e64-abf1-a1361d78be12")
-	)
-	(label "EN_SIGNAL_C"
-		(at 361.95 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "379cc0ec-4bb2-46e9-a180-a17527678fde")
 	)
 	(label "TDC_TRIGG"
 		(at 327.66 38.1 180)
@@ -13848,6 +8093,17 @@
 			(justify right bottom)
 		)
 		(uuid "39fd9c13-3841-4c52-919f-9a9798a19179")
+	)
+	(label "BRIDGE_A_SEL"
+		(at 132.08 170.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a975519-5169-4e3f-9f35-576b7e2fa009")
 	)
 	(label "{LOCAL_SPI}"
 		(at 210.82 88.9 0)
@@ -13970,6 +8226,17 @@
 		)
 		(uuid "45eb8109-3e22-4d99-9b77-5881e6a0993c")
 	)
+	(label "BRIDGE_A_SEL"
+		(at 281.94 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46078f98-71ff-41bb-bbdf-f3fbe7b90c6a")
+	)
 	(label "P3V3"
 		(at 64.77 237.49 0)
 		(fields_autoplaced yes)
@@ -13991,17 +8258,6 @@
 			(justify left bottom)
 		)
 		(uuid "49b97f4d-0381-4e23-9889-d6f424fcd889")
-	)
-	(label "EN_SIGNAL_A"
-		(at 361.95 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b13daeb-8da3-4f3a-9a4c-f70db2aabeca")
 	)
 	(label "DAC_CS"
 		(at 127 152.4 0)
@@ -14212,6 +8468,17 @@
 		)
 		(uuid "64fada2d-7abb-4308-aab9-79d3c57c9096")
 	)
+	(label "BRIDGE_D_SEL"
+		(at 281.94 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6516da10-4070-4530-b17e-6deba99ddc1f")
+	)
 	(label "P3V3"
 		(at 85.09 229.87 0)
 		(fields_autoplaced yes)
@@ -14233,17 +8500,6 @@
 			(justify left bottom)
 		)
 		(uuid "66f8053a-336f-4e25-855f-3d8bcfedcc71")
-	)
-	(label "EN_SIGNAL_D"
-		(at 129.54 177.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "67b76652-5261-48d9-957d-e18338804a42")
 	)
 	(label "BRIDGE_D_LO"
 		(at 132.08 88.9 0)
@@ -14509,17 +8765,6 @@
 		)
 		(uuid "8ea392b6-ece8-49f1-b22c-85db6164e8c5")
 	)
-	(label "EN_SIGNAL_C"
-		(at 129.54 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f4e7be6-9c7f-41b8-bb34-45cb58cbdd24")
-	)
 	(label "SPI_FASTL_SCK"
 		(at 127 254 0)
 		(fields_autoplaced yes)
@@ -14651,6 +8896,17 @@
 			(justify right bottom)
 		)
 		(uuid "9fcd9a1f-1b9f-4294-be39-d85f1ff106f2")
+	)
+	(label "BRIDGE_C_SEL"
+		(at 281.94 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3bb6abb-2336-44a8-8fdf-dabdc71d25ec")
 	)
 	(label "CNTRL_GPIO1"
 		(at 63.5 257.81 180)
@@ -14784,6 +9040,17 @@
 		)
 		(uuid "bb7dc5c2-100a-41c1-8fc0-3dc8ce230761")
 	)
+	(label "BRIDGE_D_SEL"
+		(at 132.08 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc3e8a38-a2c2-4399-a961-f2452cad5a00")
+	)
 	(label "TDC_INTB"
 		(at 255.27 31.75 0)
 		(fields_autoplaced yes)
@@ -14827,6 +9094,17 @@
 			(justify left bottom)
 		)
 		(uuid "be44cd38-c7f8-4168-9298-f26370c824cd")
+	)
+	(label "BRIDGE_C_SEL"
+		(at 132.08 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf428dd7-1b2d-40c2-a54c-59abb0eeb832")
 	)
 	(label "{CNTRL_SPI}"
 		(at 39.37 177.8 180)
@@ -15059,17 +9337,6 @@
 		)
 		(uuid "dace58ee-7481-42e5-94af-3cfd916dd829")
 	)
-	(label "EN_SIGNAL_B"
-		(at 129.54 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "db0c26bc-2d4f-413f-9a42-6f5e74e0084d")
-	)
 	(label "CNTRL_GPIO0"
 		(at 53.34 95.25 0)
 		(fields_autoplaced yes)
@@ -15114,6 +9381,17 @@
 		)
 		(uuid "de2e4626-8d1f-4801-9ff5-cb459b52a18e")
 	)
+	(label "BRIDGE_B_SEL"
+		(at 132.08 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e05a9414-7ff7-4d0e-8f2e-387f057ea1f1")
+	)
 	(label "{LVDS}"
 		(at 31.75 110.49 180)
 		(fields_autoplaced yes)
@@ -15135,17 +9413,6 @@
 			(justify left bottom)
 		)
 		(uuid "e27e1df3-94a3-4dbc-b1fd-be4530930799")
-	)
-	(label "EN_SIGNAL_A"
-		(at 129.54 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e40e2e5a-a5ab-4048-9408-695309792349")
 	)
 	(label "PGOOD_HV_REGULATOR"
 		(at 355.6 116.84 0)
@@ -15268,6 +9535,17 @@
 		)
 		(uuid "f8d5da98-a335-473f-916d-e472b5d5f9d0")
 	)
+	(label "BRIDGE_B_SEL"
+		(at 281.94 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f9756b2f-c87b-4a33-8120-09b8fc6451e6")
+	)
 	(label "ADC_D4"
 		(at 132.08 60.96 0)
 		(fields_autoplaced yes)
@@ -15347,6 +9625,18 @@
 		)
 		(uuid "09491911-212f-42e6-b35c-9166de0912af")
 	)
+	(hierarchical_label "BRIDGE_AB_MUX_EN"
+		(shape input)
+		(at 264.16 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0a44d24b-3e5e-4ebf-8584-1217f2e69b2b")
+	)
 	(hierarchical_label "{LOCAL_SPI}"
 		(shape input)
 		(at 226.06 88.9 0)
@@ -15419,29 +9709,17 @@
 		)
 		(uuid "29313bc2-850d-4838-9437-f5a07d71e8a6")
 	)
-	(hierarchical_label "EN_SIGNAL_D"
+	(hierarchical_label "BRIDGE_CD_MUX_EN"
 		(shape input)
-		(at 382.27 100.33 0)
+		(at 264.16 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "2dbf2752-885b-407c-b924-1595fb7e7cb8")
-	)
-	(hierarchical_label "EN_SIGNAL_C"
-		(shape input)
-		(at 382.27 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d5e4e12-c37b-467a-a8d2-dcff1046cdea")
+		(uuid "3af68e57-8cfa-4010-a354-af87e5613cac")
 	)
 	(hierarchical_label "BRIDGE_C_LO"
 		(shape input)
@@ -15454,6 +9732,18 @@
 			(justify left)
 		)
 		(uuid "857c23d1-a620-4149-b114-3a574d597ca0")
+	)
+	(hierarchical_label "BRIDGE_B_SEL"
+		(shape input)
+		(at 264.16 241.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89abb254-a7a8-469d-954a-68e78eab2874")
 	)
 	(hierarchical_label "BRIDGE_A_LO"
 		(shape input)
@@ -15503,6 +9793,18 @@
 		)
 		(uuid "99e2ec73-6e4d-4bd9-9ec0-4188f5cde986")
 	)
+	(hierarchical_label "BRIDGE_C_SEL"
+		(shape input)
+		(at 264.16 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a231548c-1191-4b85-b1fe-752181d45168")
+	)
 	(hierarchical_label "ADC_D[0..9]"
 		(shape input)
 		(at 214.63 149.86 0)
@@ -15539,6 +9841,18 @@
 		)
 		(uuid "c335e13b-6144-49c3-acdd-43643234066e")
 	)
+	(hierarchical_label "BRIDGE_D_SEL"
+		(shape input)
+		(at 264.16 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c7781440-2a6f-4062-ad07-477b192cd366")
+	)
 	(hierarchical_label "STOP_SIGNAL"
 		(shape input)
 		(at 382.27 81.28 0)
@@ -15563,30 +9877,6 @@
 		)
 		(uuid "d792e04e-555e-4888-963e-4497fa3d4dd7")
 	)
-	(hierarchical_label "EN_SIGNAL_A"
-		(shape input)
-		(at 382.27 88.9 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dd24dd23-341a-4a0b-9c4d-3849f3f1f22d")
-	)
-	(hierarchical_label "EN_SIGNAL_B"
-		(shape input)
-		(at 382.27 92.71 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1ad01c6-4399-4c14-b717-78480d1642e0")
-	)
 	(hierarchical_label "{LVDS}"
 		(shape input)
 		(at 24.13 110.49 180)
@@ -15610,6 +9900,18 @@
 			(justify left)
 		)
 		(uuid "e1eba4ba-3162-42f1-8178-6ced86616b8d")
+	)
+	(hierarchical_label "BRIDGE_A_SEL"
+		(shape input)
+		(at 264.16 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5ab1b96-428c-4c91-9931-100d44b2908e")
 	)
 	(symbol
 		(lib_id "Diode:BAT54S")
@@ -15702,7 +10004,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 322.58 151.1299 0)
 			(effects
 				(font
@@ -15772,7 +10074,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 299.72 151.1299 0)
 			(effects
 				(font
@@ -16119,7 +10421,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 276.86 151.1299 0)
 			(effects
 				(font
@@ -16189,7 +10491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 271.78 66.0399 0)
 			(effects
 				(font
@@ -16608,7 +10910,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 335.28 151.1299 0)
 			(effects
 				(font
@@ -16678,7 +10980,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 288.29 175.2599 0)
 			(effects
 				(font
@@ -17080,6 +11382,9 @@
 		(pin "3"
 			(uuid "add4a6d9-db86-47f4-9700-57abd02f4b25")
 		)
+		(pin "89"
+			(uuid "9c3000f5-cb96-4df3-aacd-c59511f56e7a")
+		)
 		(instances
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/1df80d8e-006c-4dfb-9745-823e097e735e"
@@ -17440,6 +11745,9 @@
 		(pin "3"
 			(uuid "add4a6d9-db86-47f4-9700-57abd02f4b26")
 		)
+		(pin "89"
+			(uuid "ce8671d1-1545-405d-8e12-f7b0f1349a88")
+		)
 		(instances
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/1df80d8e-006c-4dfb-9745-823e097e735e"
@@ -17601,7 +11909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 265.43 151.1299 0)
 			(effects
 				(font
@@ -17671,7 +11979,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 311.15 175.2599 0)
 			(effects
 				(font
@@ -17741,7 +12049,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 62.23 120.6499 0)
 			(effects
 				(font
@@ -17949,7 +12257,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 369.57 151.1299 0)
 			(effects
 				(font
@@ -18019,7 +12327,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 276.86 175.2599 0)
 			(effects
 				(font
@@ -18223,7 +12531,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 346.71 151.1299 0)
 			(effects
 				(font
@@ -18293,7 +12601,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 62.23 151.1299 0)
 			(effects
 				(font
@@ -18680,7 +12988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 288.29 113.03 0)
 			(effects
 				(font
@@ -18993,7 +13301,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 358.14 151.1299 0)
 			(effects
 				(font
@@ -19259,7 +13567,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 242.316 39.624 90)
 			(effects
 				(font
@@ -19285,7 +13593,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 247.65 41.91 0)
 			(effects
 				(font
@@ -19328,7 +13636,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 288.29 151.1299 0)
 			(effects
 				(font
@@ -19398,7 +13706,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 322.58 175.2599 0)
 			(effects
 				(font
@@ -19590,7 +13898,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LCMXO2-1200HC-4TG100C_3")
 		(lib_id "10_ICs:LCMXO2-1200HC-4TG100C")
 		(at 73.66 24.13 0)
 		(unit 1)
@@ -19954,7 +14261,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LCMXO2-1200HC-4TG100C_2")
 		(lib_id "10_ICs:LCMXO2-1200HC-4TG100C")
 		(at 152.4 195.58 0)
 		(unit 4)
@@ -20669,7 +14975,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 265.43 175.2599 0)
 			(effects
 				(font
@@ -20806,7 +15112,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 207.01 57.1499 0)
 			(effects
 				(font
@@ -21148,7 +15454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 323.85 67.3099 0)
 			(effects
 				(font
@@ -21217,7 +15523,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 268.224 23.114 90)
 			(effects
 				(font
@@ -21243,7 +15549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 262.89 25.4 0)
 			(effects
 				(font
@@ -21359,7 +15665,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 62.23 135.8899 0)
 			(effects
 				(font
@@ -21826,7 +16132,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LCMXO2-1200HC-4TG100C_1")
 		(lib_id "10_ICs:LCMXO2-1200HC-4TG100C")
 		(at 325.12 193.04 0)
 		(unit 5)
@@ -22209,7 +16514,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1n"
+		(property "Value" "C"
 			(at 283.21 66.0399 0)
 			(effects
 				(font
@@ -22680,7 +16985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 313.69 114.3 0)
 			(effects
 				(font
@@ -22857,7 +17162,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 33.02 78.74 90)
 			(effects
 				(font
@@ -22926,7 +17231,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "C"
 			(at 311.15 151.1299 0)
 			(effects
 				(font
@@ -23398,7 +17703,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 279.4 100.33 90)
 			(effects
 				(font
@@ -23424,7 +17729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 279.4 97.79 0)
 			(effects
 				(font
@@ -23467,7 +17772,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 62.23 166.3699 0)
 			(effects
 				(font
@@ -23607,7 +17912,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "C"
 			(at 285.75 110.49 0)
 			(effects
 				(font
@@ -23633,7 +17938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 288.29 107.95 0)
 			(effects
 				(font
@@ -23676,7 +17981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 299.72 175.2599 0)
 			(effects
 				(font

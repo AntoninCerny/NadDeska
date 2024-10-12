@@ -5,12 +5,287 @@
 	(uuid "c92cbed6-d74c-4a61-959b-b8f9abdc5681")
 	(paper "A4")
 	(lib_symbols
+		(symbol "10_ICs:DMN6069SE"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0.508 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DMN6069SE"
+				(at -1.524 -1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cz.mouser.com/datasheet/2/115/DIODS21240_1-2542003.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DMN6069SE_0_1"
+				(polyline
+					(pts
+						(xy 5.334 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 -3.175) (xy 5.334 -6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -6.35) (xy 5.842 -7.366)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -4.572) (xy 5.842 -5.588)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -2.794) (xy 5.842 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 7.62 -5.08) (xy 5.842 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -6.858) (xy 8.382 -6.858) (xy 8.382 -3.302) (xy 5.842 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -5.08) (xy 7.112 -4.699) (xy 7.112 -5.461) (xy 6.096 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -4.572) (xy 8.001 -4.699) (xy 8.763 -4.699) (xy 8.89 -4.826)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -4.699) (xy 8.001 -5.334) (xy 8.763 -5.334) (xy 8.382 -4.699)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.731 -5.08)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -6.858)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 7.62 -3.302)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "DMN6069SE_1_1"
+				(pin input line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "10_ICs:LM34966"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U15"
-				(at 12.7 5.08 0)
+			(property "Reference" "U"
+				(at 0.762 2.286 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,7 +293,7 @@
 				)
 			)
 			(property "Value" "LM34966"
-				(at 12.7 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -906,319 +1181,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2377,7 +2339,7 @@
 				)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "C"
 			(at 113.03 101.6 90)
 			(effects
 				(font
@@ -2446,7 +2408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "R"
 			(at 198.12 101.5999 0)
 			(effects
 				(font
@@ -2464,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Bussmann-Eaton/MFL0603R0100FA?qs=sGAEpiMZZMtlleCFQhR%2FzX%2FMoTUoyF2nsJoSKa0HvBn6AmlRP7WW6Q%3D%3D"
+		(property "Datasheet" "~"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -2515,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "R"
 			(at 76.2 87.63 90)
 			(effects
 				(font
@@ -2584,7 +2546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R"
 			(at 50.8 91.4399 0)
 			(effects
 				(font
@@ -2654,7 +2616,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22n"
+		(property "Value" "C"
 			(at 107.95 124.4599 0)
 			(effects
 				(font
@@ -2724,7 +2686,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220p"
+		(property "Value" "C"
 			(at 97.79 130.8099 0)
 			(effects
 				(font
@@ -2859,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "R"
 			(at 177.8 72.39 90)
 			(effects
 				(font
@@ -3012,7 +2974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 224.79 107.95 0)
 			(effects
 				(font
@@ -3130,7 +3092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "11k3"
+		(property "Value" "R"
 			(at 106.68 137.1599 0)
 			(effects
 				(font
@@ -3307,7 +3269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100p"
+		(property "Value" "C"
 			(at 182.88 101.5999 0)
 			(effects
 				(font
@@ -3376,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Value" "49k9"
+		(property "Value" "R"
 			(at 105.41 95.25 90)
 			(effects
 				(font
@@ -3646,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Value" "V8PA6HM3/I"
+		(property "Value" "D"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -3663,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-General-Semiconductor/V8PA6HM3-I?qs=b%252B2mHxW%2Fy4Va%252BzY9SymevA%3D%3D"
+		(property "Datasheet" "~"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -3869,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10m"
+		(property "Value" "R"
 			(at 208.28 101.5999 0)
 			(effects
 				(font
@@ -3887,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://eu.mouser.com/ProductDetail/Bussmann-Eaton/MFL0603R0100FA?qs=sGAEpiMZZMtlleCFQhR%2FzX%2FMoTUoyF2nsJoSKa0HvBn6AmlRP7WW6Q%3D%3D"
+		(property "Datasheet" "~"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -4003,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Value" "1N4148W"
+		(property "Value" "D"
 			(at 177.546 86.868 0)
 			(effects
 				(font
@@ -4020,7 +3982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/1N4148W-7-F?qs=LHX0FizJzg7Ae9ZM8LTAWw%3D%3D&srsltid=AfmBOorMVh9aQCQJXlRmu5q-x4k63j0_Z9czWefQ9uFlGwFx4R5vInln"
+		(property "Datasheet" "~"
 			(at 177.8 81.28 0)
 			(effects
 				(font
@@ -4089,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "R"
 			(at 187.96 87.63 90)
 			(effects
 				(font
@@ -4143,106 +4105,6 @@
 			(project "ultrasonic_V3_HW"
 				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/fa0f0e71-32a1-4f06-ba3c-8552f7539938/20962ebf-4383-4e37-a926-d36c5a815eed"
 					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 198.12 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c438ead4-0de8-4a53-865d-0052c118999d")
-		(property "Reference" "Q22"
-			(at 204.47 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 204.47 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 203.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Diodes-Incorporated/DMN6069SE-13?qs=y6ZabgHbY%252BxxJPeGPFEm5g%3D%3D"
-			(at 198.12 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DMN6069SE-13"
-			(at 198.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 198.12 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 198.12 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 198.12 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c29a7aaa-eed1-4611-95bb-6499f71de6bb")
-		)
-		(pin "1"
-			(uuid "3f9059c5-b527-42bf-a224-2300e62e5186")
-		)
-		(pin "3"
-			(uuid "56ee48a2-1f50-4096-ac31-3809b4de35b6")
-		)
-		(instances
-			(project "ultrasonic_V3_HW"
-				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/fa0f0e71-32a1-4f06-ba3c-8552f7539938/20962ebf-4383-4e37-a926-d36c5a815eed"
-					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -4315,6 +4177,79 @@
 		)
 	)
 	(symbol
+		(lib_id "10_ICs:DMN6069SE")
+		(at 193.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d58e4ba2-805d-45e4-9d7e-fbfa55a86f22")
+		(property "Reference" "Q11"
+			(at 204.47 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMN6069SE"
+			(at 204.47 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cz.mouser.com/datasheet/2/115/DIODS21240_1-2542003.pdf"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2911ba4-f6a6-4753-9fbb-47410ad2d311")
+		)
+		(pin "2"
+			(uuid "99e073ae-a0cc-444f-80bb-9c394ecc2f1e")
+		)
+		(pin "3"
+			(uuid "6fa42540-3529-4542-b8b8-a577e6f5bf2e")
+		)
+		(instances
+			(project "ultrasonic_V3_HW"
+				(path "/731d4032-cf8d-4f76-95ca-2ec44c8e0816/fa0f0e71-32a1-4f06-ba3c-8552f7539938/20962ebf-4383-4e37-a926-d36c5a815eed"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 139.7 60.96 90)
 		(unit 1)
@@ -4332,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "L"
 			(at 139.7 58.42 90)
 			(effects
 				(font
@@ -4349,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/ABRACON/ASPIAIG-S8050-6R8M-T?qs=l%2FgYmo23PNPNrTLXodySdQ%3D%3D"
+		(property "Datasheet" "~"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -4400,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "C"
 			(at 113.03 71.12 90)
 			(effects
 				(font
@@ -4601,7 +4536,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "C"
 			(at 171.45 115.5699 0)
 			(effects
 				(font
