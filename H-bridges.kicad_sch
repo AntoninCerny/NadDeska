@@ -5122,7 +5122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/TMUX7219DGKR?qs=sGAEpiMZZMvjbjwkTuU2acwFnIzSoMpBVXR8wdisB%252BBcDlctYUkJ6w%3D%3D"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/TMUX7219DGKR?qs=eP2BKZSCXI7wuDkZT1%2FOKw%3D%3D"
 			(at 208.28 63.5 0)
 			(effects
 				(font
@@ -5280,7 +5280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20005852A.pdf"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Microchip-Technology/MIC4604YM-TR?qs=U6T8BxXiZAXPh9RJlee8UQ%3D%3D"
 			(at 71.12 73.66 0)
 			(effects
 				(font
@@ -11086,7 +11086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/TMUX7219DGKR?qs=sGAEpiMZZMvjbjwkTuU2acwFnIzSoMpBVXR8wdisB%252BBcDlctYUkJ6w%3D%3D"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/TMUX7219DGKR?qs=eP2BKZSCXI7wuDkZT1%2FOKw%3D%3D"
 			(at 190.5 212.09 0)
 			(effects
 				(font

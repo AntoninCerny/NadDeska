@@ -3691,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 67.31) (xy 256.54 67.31)
+			(xy 255.27 67.31) (xy 257.81 67.31)
 		)
 		(stroke
 			(width 0)
@@ -4071,7 +4071,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 67.31) (xy 267.97 67.31)
+			(xy 265.43 67.31) (xy 267.97 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5123,7 +5123,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "02fce1ce-05c0-4d3d-a45f-4bfbe2c89c9a")
 		(property "Reference" "R21"
 			(at 190.754 69.85 90)
@@ -5133,7 +5133,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 193.294 69.85 90)
 			(effects
 				(font
@@ -5337,7 +5337,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 146.304 69.85 90)
 			(effects
 				(font
@@ -5394,7 +5394,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "09641039-3a9f-4690-b5b8-fa76c7e399f0")
 		(property "Reference" "U17"
@@ -5422,7 +5422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/OPA388IDGKR?qs=sGAEpiMZZMutXGli8Ay4kEuv900fs2zN%2FP2E49NQzzw%3D"
 			(at 212.09 62.23 0)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0f921e3e-069a-4bb3-952d-5c197b5d3488")
 		(property "Reference" "U17"
@@ -5574,7 +5574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/OPA388IDGKR?qs=sGAEpiMZZMutXGli8Ay4kEuv900fs2zN%2FP2E49NQzzw%3D"
 			(at 339.09 201.93 0)
 			(effects
 				(font
@@ -5727,7 +5727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX9939AUB%2bT?qs=1eQvB6Dk1vhzbg6od%2Fp2zg%3D%3D"
 			(at 114.3 62.23 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 347.98 184.15 90)
 			(effects
 				(font
@@ -6342,7 +6342,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 347.98 158.75 90)
 			(effects
 				(font
@@ -6608,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10k"
 			(at 150.114 77.47 90)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "578aa0fa-fb03-4dc5-9eca-818ed24d1b6e")
 		(property "Reference" "C10"
 			(at 186.6899 61.1073 0)
@@ -6676,7 +6676,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 189.2299 61.1073 0)
 			(effects
 				(font
@@ -6744,7 +6744,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 215.9 42.164 90)
 			(effects
 				(font
@@ -6812,7 +6812,7 @@
 				)
 			)
 		)
-		(property "Value" "DGS0010A"
+		(property "Value" "DAC60501"
 			(at 238.76 176.53 0)
 			(effects
 				(font
@@ -6829,7 +6829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/dac60501.pdf?ts=1725519797995&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FDAC60501%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dasc-null-null-gpn_en-cpc-pf-google-eu%2526utm_content%253Ddac60501%2526ds_k%253DDAC60501%2526dcm%253Dyes%2526gad_source%253D1%2526gclid%253DEAIaIQobChMI3LiUjZ6riAMVb5KDBx30oiEWEAAYASAAEgLsTPD_BwE%2526gclsrc%253Daw.ds"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/DAC60501ZDGSR?qs=%252B6g0mu59x7JUdF3YSyQB0g%3D%3D"
 			(at 228.6 177.8 0)
 			(effects
 				(font
@@ -7039,7 +7039,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 280.5227 203.1999 0)
 			(effects
 				(font
@@ -7097,7 +7097,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "734d80c5-9963-4bf0-aec8-5490c96fe116")
 		(property "Reference" "R16"
 			(at 218.44 75.184 90)
@@ -7107,7 +7107,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 218.44 77.724 90)
 			(effects
 				(font
@@ -7165,7 +7165,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "753bd254-16e8-48e1-b931-8181f258a03d")
 		(property "Reference" "R17"
 			(at 200.914 87.63 90)
@@ -7175,7 +7175,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 203.454 87.63 90)
 			(effects
 				(font
@@ -7395,7 +7395,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100p"
 			(at 106.172 67.056 90)
 			(effects
 				(font
@@ -7616,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Analog-Devices-Maxim-Integrated/MAX9939AUB%2bT?qs=1eQvB6Dk1vhzbg6od%2Fp2zg%3D%3D"
 			(at 341.63 175.26 0)
 			(effects
 				(font
@@ -7692,7 +7692,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 267.8227 203.1999 0)
 			(effects
 				(font
@@ -7761,7 +7761,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "8k2"
 			(at 217.17 177.8 90)
 			(effects
 				(font
@@ -7879,7 +7879,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 260.35 67.31 270)
+		(at 261.62 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7888,15 +7888,15 @@
 		(fields_autoplaced yes)
 		(uuid "c92b74b4-0cc4-4d3b-ac5a-84d3175ff1d6")
 		(property "Reference" "R7"
-			(at 260.35 60.96 90)
+			(at 261.62 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 260.35 63.5 90)
+		(property "Value" "10"
+			(at 261.62 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7904,7 +7904,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 260.35 65.532 90)
+			(at 261.62 65.532 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7913,7 +7913,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.35 67.31 0)
+			(at 261.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7922,7 +7922,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 260.35 67.31 0)
+			(at 261.62 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +7952,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ca1f08d4-ba15-4425-b9fa-fd5a10c74b68")
 		(property "Reference" "R19"
 			(at 193.294 59.69 90)
@@ -7962,7 +7962,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 195.834 59.69 90)
 			(effects
 				(font
@@ -8030,7 +8030,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 347.98 147.32 90)
 			(effects
 				(font
@@ -8154,7 +8154,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d6a68500-ce5e-403b-be32-6774bee7307c")
 		(property "Reference" "C11"
 			(at 202.0773 101.6001 0)
@@ -8165,7 +8165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 202.0773 99.0601 0)
 			(effects
 				(font
@@ -8369,7 +8369,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100p"
 			(at 271.78 76.1999 0)
 			(effects
 				(font
@@ -8561,7 +8561,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e8b67018-7383-48b9-adc8-bd447a4b5264")
 		(property "Reference" "R72"
 			(at 234.95 62.484 90)
@@ -8571,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 234.95 65.024 90)
 			(effects
 				(font

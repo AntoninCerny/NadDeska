@@ -2339,7 +2339,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220n"
 			(at 113.03 101.6 90)
 			(effects
 				(font
@@ -2408,7 +2408,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10m"
 			(at 198.12 101.5999 0)
 			(effects
 				(font
@@ -2426,7 +2426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3BWFR025V?qs=22lEN67Lqx6yyPyD%2FCtjJQ%3D%3D"
 			(at 195.58 100.33 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "24k9"
 			(at 76.2 87.63 90)
 			(effects
 				(font
@@ -2616,7 +2616,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "22n"
 			(at 107.95 124.4599 0)
 			(effects
 				(font
@@ -2686,7 +2686,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220p"
 			(at 97.79 130.8099 0)
 			(effects
 				(font
@@ -2821,7 +2821,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 177.8 72.39 90)
 			(effects
 				(font
@@ -3092,7 +3092,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "11k3"
 			(at 106.68 137.1599 0)
 			(effects
 				(font
@@ -3178,7 +3178,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Texas-Instruments/LM34966QPWPRQ1?qs=zW32dvEIR3tnRgqzlr9chw%3D%3D"
 			(at 127 71.12 0)
 			(effects
 				(font
@@ -3269,7 +3269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100p"
 			(at 182.88 101.5999 0)
 			(effects
 				(font
@@ -3338,7 +3338,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "49k9"
 			(at 105.41 95.25 90)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "V8PA6HM3/I"
 			(at 213.36 57.15 0)
 			(effects
 				(font
@@ -3625,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-General-Semiconductor/V8PA6HM3-I?qs=b%252B2mHxW%2Fy4Va%252BzY9SymevA%3D%3D"
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -3831,7 +3831,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10m"
 			(at 208.28 101.5999 0)
 			(effects
 				(font
@@ -3849,7 +3849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Panasonic/ERJ-3BWFR025V?qs=22lEN67Lqx6yyPyD%2FCtjJQ%3D%3D"
 			(at 205.74 100.33 0)
 			(effects
 				(font
@@ -3955,7 +3955,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "bd40c7af-6fd9-412a-94bf-637835996d53")
 		(property "Reference" "D3"
 			(at 177.8 84.328 0)
@@ -4051,7 +4051,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 187.96 87.63 90)
 			(effects
 				(font
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "6.8u"
 			(at 139.7 58.42 90)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Vishay-Dale/IFSC3232DBER6R8M01?qs=dbcCsuKDzFVXQMJFlZnyoQ%3D%3D"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -4335,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 113.03 71.12 90)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 171.45 115.5699 0)
 			(effects
 				(font

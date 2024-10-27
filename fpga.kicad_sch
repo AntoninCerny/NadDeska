@@ -18591,7 +18591,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 331.47 71.1199 0)
 			(effects
 				(font
@@ -18945,7 +18945,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 67.945 78.105 0)
 			(effects
 				(font
@@ -20081,7 +20081,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 64.77 91.4399 0)
 			(effects
 				(font
@@ -20626,7 +20626,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 64.77 121.9199 0)
 			(effects
 				(font
@@ -21326,7 +21326,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "6k8"
 			(at 197.866 43.434 90)
 			(effects
 				(font
@@ -22670,7 +22670,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 162.56 60.9599 0)
 			(effects
 				(font
@@ -22946,7 +22946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "1u"
 			(at 383.54 72.3899 0)
 			(effects
 				(font
@@ -23083,7 +23083,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "4k7"
 			(at 327.914 28.194 90)
 			(effects
 				(font
@@ -23225,7 +23225,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 64.77 106.6799 0)
 			(effects
 				(font
@@ -24010,7 +24010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 342.9 71.1199 0)
 			(effects
 				(font
@@ -25070,7 +25070,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "100"
 			(at 64.77 137.1599 0)
 			(effects
 				(font

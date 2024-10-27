@@ -6672,7 +6672,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 54.61 90)
 			(effects
 				(font
@@ -7666,7 +7666,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 71.12 133.858 90)
 			(effects
 				(font
@@ -7950,7 +7950,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 71.12 123.698 90)
 			(effects
 				(font
@@ -8017,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 64.77 90)
 			(effects
 				(font
@@ -8152,7 +8152,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 74.93 90)
 			(effects
 				(font
@@ -8352,7 +8352,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 71.12 128.778 90)
 			(effects
 				(font
@@ -8621,7 +8621,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 80.01 90)
 			(effects
 				(font
@@ -9010,7 +9010,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 77.47 90)
 			(effects
 				(font
@@ -9144,7 +9144,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 70.104 90)
 			(effects
 				(font
@@ -9230,7 +9230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/Phoenix-Contact/1715721?qs=BYlwlsDsB%2FqgmKyTCSucHg%3D%3D"
 			(at 46.99 231.14 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0"
 			(at 86.106 82.804 90)
 			(effects
 				(font
